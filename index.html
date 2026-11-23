@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Barcode Intelligence — ข่าวกรองตลาดบาร์โค้ดโลก | ACS</title>
+<meta name="description" content="แดชบอร์ดรวมข่าวตลาดบาร์โค้ดและ AIDC ทั่วโลก แบรนด์ มาตรฐาน GS1 ข่าวไทยและอาเซียน พร้อมเครื่องมือค้นหาเลขบาร์โค้ด GTIN/EAN" />
+<meta property="og:title" content="Barcode Intelligence — ACS" />
+<meta property="og:description" content="ข่าวกรองตลาดบาร์โค้ดโลก + ค้นหาเลข GTIN/EAN" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.css" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2316161a'/%3E%3Cg fill='%23f4f2ed'%3E%3Crect x='6' y='7' width='2' height='18'/%3E%3Crect x='10' y='7' width='1' height='18'/%3E%3Crect x='13' y='7' width='3' height='18'/%3E%3Crect x='18' y='7' width='1' height='18'/%3E%3Crect x='21' y='7' width='2' height='18'/%3E%3Crect x='25' y='7' width='1' height='18'/%3E%3C/g%3E%3Crect x='4' y='15' width='24' height='2' fill='%23e0352b'/%3E%3C/svg%3E" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js" defer></script>
+<script src="gs1.js" defer></script>
+<script src="https://unpkg.com/maplibre-gl@5.24.0/dist/maplibre-gl.js" defer></script>
+<script src="app.js" defer></script>
+<script src="gev.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main" onclick="event.preventDefault();document.getElementById('main').focus();">ข้ามไปเนื้อหา</a>
+<header class="topbar">
+  <div class="brand">
+    <svg class="mark" viewBox="0 0 32 32" aria-hidden="true"><g fill="currentColor"><rect x="5" y="6" width="2" height="20"/><rect x="9" y="6" width="1" height="20"/><rect x="12" y="6" width="3" height="20"/><rect x="17" y="6" width="1" height="20"/><rect x="20" y="6" width="2" height="20"/><rect x="24" y="6" width="1" height="20"/><rect x="26.5" y="6" width="1.5" height="20"/></g><rect class="laser" x="2" y="15" width="28" height="2"/></svg>
+    <div>
+      <h1>Barcode Intelligence</h1>
+      <p class="sub">ข่าวกรองตลาดบาร์โค้ดโลก · Asian Coding Systems</p>
+    </div>
+  </div>
+  <div class="updated" data-testid="text-updated">
+    <span class="dot" aria-hidden="true"></span>
+    <span id="updated-label">กำลังโหลด…</span>
+  </div>
+</header>
+
+<nav class="tabs" role="tablist" aria-label="ส่วนของแดชบอร์ด">
+  <button role="tab" aria-selected="true" data-tab="gev" data-testid="tab-gev"><span class="gev-dot" aria-hidden="true"></span>GEV มุมมองโลก</button>
+  <button role="tab" aria-selected="false" data-tab="overview" data-testid="tab-overview">ภาพรวม</button>
+  <button role="tab" aria-selected="false" data-tab="news" data-testid="tab-news">ข่าวตลาด</button>
+  <button role="tab" aria-selected="false" data-tab="vendors" data-testid="tab-vendors">แบรนด์</button>
+  <button role="tab" aria-selected="false" data-tab="sea" data-testid="tab-sea">มาตรฐาน &amp; อาเซียน</button>
+  <button role="tab" aria-selected="false" data-tab="lookup" data-testid="tab-lookup">ค้นหาบาร์โค้ด</button>
+</nav>
+
+<main id="main" tabindex="-1">
+
+  <!-- GEV -->
+  <section class="panel gev" id="panel-gev" role="tabpanel">
+    <div class="gev-stage" id="gev-stage">
+      <div id="gev-map" class="gev-map" aria-label="ลูกโลก 3 มิติ แสดงแบรนด์ ข่าว และงานขายของ ACS" role="region"></div>
+      <div class="gev-hud gev-hud-tl">
+        <p class="gev-eyebrow">GOD'S EYE VIEW · AIDC WORLD</p>
+        <h2 class="gev-title">ตลาดบาร์โค้ดทั้งโลก<br />มองจากจุดเดียว</h2>
+        <div class="gev-stats" id="gev-stats"></div>
+      </div>
+      <div class="gev-hud gev-hud-tr">
+        <div class="gev-btns">
+          <button class="gbtn primary" id="gev-tour" data-testid="button-gev-tour">▶ ทัวร์ GEV</button>
+          <button class="gbtn" data-fly="world" data-testid="button-gev-world">โลก</button>
+          <button class="gbtn" data-fly="asia" data-testid="button-gev-asia">เอเชีย</button>
+          <button class="gbtn" data-fly="th" data-testid="button-gev-th">ไทย · ACS</button>
+        </div>
+        <div class="gev-layers" id="gev-layers" role="group" aria-label="ชั้นข้อมูล">
+          <button class="chip on" data-layer="brands" aria-pressed="true"><i style="background:#ffb547"></i>แบรนด์ (HQ)</button>
+          <button class="chip on" data-layer="arcs" aria-pressed="true"><i style="background:#ff4d3d"></i>เส้นเชื่อมสู่ ACS</button>
+          <button class="chip on" data-layer="news" aria-pressed="true"><i style="background:#4fe3ff"></i>ข่าวตามประเทศ</button>
+          <button class="chip on" data-layer="acs" aria-pressed="true"><i style="background:#a59bff"></i>งานขาย ACS</button>
+          <button class="chip" data-layer="estates" aria-pressed="false"><i style="background:#7ddc8a"></i>นิคมอุตสาหกรรม</button>
+          <button class="chip on" data-layer="sat" aria-pressed="true"><i style="background:#3b6e4a"></i>ภาพดาวเทียม</button>
+        </div>
+      </div>
+      <div class="gev-caption" id="gev-caption" aria-live="polite"></div>
+      <div class="gev-ticker" aria-label="ข่าวล่าสุด"><span class="gev-live">LIVE</span><div class="gev-tick-track"><div class="gev-tick-inner" id="gev-ticker"></div></div></div>
+      <p class="gev-note">พิกัดแบรนด์ระดับเมือง · ข่าวปักที่เมืองหลวงของประเทศ · เส้นเชื่อมเป็นแผนภาพ ไม่ใช่เส้นทางขนส่งจริง · แผนที่ © Esri, Maxar, OpenStreetMap</p>
+    </div>
+
+    <div class="gev-below">
+      <article class="card">
+        <header class="card-h"><h2>ข่าวโลก → ดีลของ ACS</h2><span class="hint">เชื่อมข่าวที่ยืนยันแล้วกับงานขาย (ปิดชื่อ)</span></header>
+        <div class="impact-grid" id="impact-grid"></div>
+      </article>
+      <article class="card">
+        <header class="card-h"><h2>ACS Command Layer</h2><span class="hint">ปิดชื่อลูกค้าและงานประมูล · Codename เท่านั้น</span></header>
+        <div class="mem-kpis" id="mem-kpis"></div>
+        <div class="mem-split">
+          <div><h3 class="mini-h">บัญชี 56 รายตามอุตสาหกรรม</h3><div id="mem-industry"></div></div>
+          <div><h3 class="mini-h">Bid Desk</h3><ul class="rfp-list" id="mem-rfps"></ul></div>
+        </div>
+        <p class="muted small">ชื่อบัญชีและงานประมูลถูกแทนด้วย codename และพิกัดถูกเลื่อนตำแหน่งเพื่อปกป้องข้อมูลลูกค้า</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- OVERVIEW -->
+  <section class="panel" id="panel-overview" role="tabpanel" hidden>
+    <div class="kpis" id="kpis">
+      <div class="kpi skeleton"></div><div class="kpi skeleton"></div><div class="kpi skeleton"></div><div class="kpi skeleton"></div>
+    </div>
+
+    <div class="grid-2">
+      <article class="card">
+        <header class="card-h"><h2>ปริมาณข่าวรายเดือน</h2><span class="hint">แยกตามหมวด</span></header>
+        <div class="chart-wrap"><canvas id="chart-monthly" aria-label="กราฟจำนวนข่าวรายเดือนแยกตามหมวด" role="img"></canvas></div>
+      </article>
+      <article class="card">
+        <header class="card-h"><h2>แบรนด์ที่ถูกพูดถึงมากสุด</h2><span class="hint">จำนวนข่าว</span></header>
+        <div class="chart-wrap"><canvas id="chart-vendors" aria-label="กราฟแบรนด์ที่มีข่าวมากที่สุด" role="img"></canvas></div>
+      </article>
+    </div>
+
+    <div class="grid-2 wide-left">
+      <article class="card">
+        <header class="card-h"><h2>ข่าวล่าสุด</h2><button class="link-btn" data-goto="news" data-testid="button-all-news">ดูทั้งหมด →</button></header>
+        <ol class="feed compact" id="latest-feed"></ol>
+      </article>
+      <article class="card">
+        <header class="card-h"><h2>ขนาดตลาด</h2><span class="hint">ตัวเลขตามที่ผู้วิจัยเผยแพร่</span></header>
+        <div class="market" id="market-list"></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- NEWS -->
+  <section class="panel" id="panel-news" role="tabpanel" hidden>
+    <div class="filters">
+      <label class="search">
+        <span class="sr">ค้นหาข่าว</span>
+        <input type="search" id="news-q" placeholder="ค้นหา เช่น Zebra, RFID, 2D…" data-testid="input-news-search" />
+      </label>
+      <div class="chips" id="cat-chips" role="group" aria-label="กรองหมวด"></div>
+      <label class="select">
+        <span class="sr">แบรนด์</span>
+        <select id="news-vendor" data-testid="select-news-vendor"><option value="">ทุกแบรนด์</option></select>
+      </label>
+    </div>
+    <p class="count" id="news-count" data-testid="text-news-count"></p>
+    <ol class="feed" id="news-feed"></ol>
+  </section>
+
+  <!-- VENDORS -->
+  <section class="panel" id="panel-vendors" role="tabpanel" hidden>
+    <div class="table-wrap">
+      <table class="vt" id="vendor-table">
+        <thead><tr>
+          <th scope="col">แบรนด์</th><th scope="col">สำนักงานใหญ่</th><th scope="col">กลุ่มสินค้า</th>
+          <th scope="col">ความเคลื่อนไหวล่าสุด</th><th scope="col" class="num">ข่าว</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- STANDARDS & SEA -->
+  <section class="panel" id="panel-sea" role="tabpanel" hidden>
+    <div class="grid-2 even">
+      <article class="card">
+        <header class="card-h"><h2>มาตรฐาน &amp; เทรนด์</h2><span class="hint">GS1 · 2D · RFID · DPP</span></header>
+        <ol class="feed compact" id="std-feed"></ol>
+      </article>
+      <article class="card">
+        <header class="card-h"><h2>ไทย &amp; อาเซียน</h2><span class="hint">ตลาดที่ ACS ขาย</span></header>
+        <ol class="feed compact" id="sea-feed"></ol>
+      </article>
+    </div>
+  </section>
+
+  <!-- LOOKUP -->
+  <section class="panel" id="panel-lookup" role="tabpanel" hidden>
+    <div class="lookup">
+      <form id="lookup-form" class="lookup-form" autocomplete="off">
+        <label for="gtin-input" class="lbl">เลขบาร์โค้ด (EAN-13, UPC-A, EAN-8, GTIN-14, ISBN)</label>
+        <div class="scanbox">
+          <input id="gtin-input" inputmode="numeric" placeholder="เช่น 8851959132012" maxlength="20" data-testid="input-gtin" />
+          <button type="submit" class="btn primary" data-testid="button-lookup">ค้นหา</button>
+          <button type="button" class="btn" id="cam-btn" data-testid="button-camera">สแกนด้วยกล้อง</button>
+        </div>
+        <div class="examples">ลองตัวอย่าง:
+          <button type="button" class="ex" data-ex="8851959132012">8851959132012</button>
+          <button type="button" class="ex" data-ex="3017620422003">3017620422003</button>
+          <button type="button" class="ex" data-ex="9780141036144">9780141036144</button>
+        </div>
+        <div id="cam-area" class="cam" hidden><video id="cam-video" playsinline muted></video><span class="scanline" aria-hidden="true"></span><button type="button" class="btn" id="cam-stop">ปิดกล้อง</button></div>
+        <p id="cam-msg" class="muted" role="status"></p>
+      </form>
+
+      <div id="lookup-result" class="result" aria-live="polite">
+        <div class="empty">
+          <p class="empty-t">ใส่เลขบาร์โค้ดเพื่อเริ่ม</p>
+          <p class="muted">ระบบจะตรวจ check digit, บอกสมาชิก GS1 ที่ออกเลข และค้นข้อมูลสินค้าจากฐานข้อมูลเปิด (Open Food Facts, Open Beauty Facts, Open Products Facts)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>ข้อมูลข่าวรวบรวมจากแหล่งข่าวสาธารณะ ทุกข่าวมีลิงก์ต้นทาง · คำนำหน้า GS1 จาก <a href="https://www.gs1.org/standards/id-keys/company-prefix" target="_blank" rel="noopener">GS1 Global</a> (บอกประเทศที่ออกเลข ไม่ใช่ประเทศที่ผลิต) · ข้อมูลสินค้าจาก <a href="https://world.openfoodfacts.org" target="_blank" rel="noopener">Open Food Facts</a></p>
+</footer>
+</body>
+</html>

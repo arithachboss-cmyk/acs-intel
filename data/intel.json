@@ -1,0 +1,1535 @@
+{
+ "updated_at": "2026-11-23T06:33:46+00:00",
+ "news": [
+  {
+   "id": "sea-02",
+   "date": "2026-11-30",
+   "title_th": "GS1 Thailand Annual Meeting 2026 \"Passport to the Global Market\" 30 พ.ย. นี้",
+   "summary_th": "สถาบันรหัสสากลจัดประชุมใหญ่ประจำปี 2569 วันที่ 30 พ.ย. 2569 ที่ Grand Centre Point Prestige กรุงเทพฯ เป็นโอกาสพบผู้ผลิตและแบรนด์สมาชิก GS1 ที่กำลังเตรียมใช้บาร์โค้ด 2D",
+   "title_en": "GS1 Thailand Annual Meeting 2026: Passport to the Global Market",
+   "source_name": "GS1 Thailand",
+   "url": "https://service.gs1th.org/event/Event/Agenda?eventId=6",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "std-12",
+   "date": "2026-11-19",
+   "title_th": "MINISO ใช้แท็ก RAIN RFID ขนาดเล็กของ Impinj นับสต็อกในร้านสหรัฐฯ",
+   "summary_th": "MINISO เพิ่มความเร็วและความแม่นยำในการนับสต็อกด้วยแท็กจิ๋วของ Xindeco ที่ใช้ชิป Impinj M830 เป็นตัวอย่าง RFID ระดับชิ้นสำหรับสินค้าราคาต่ำที่ใช้กับร้านค้าปลีกไลฟ์สไตล์ในไทยได้",
+   "title_en": "MINISO Manages Vast, Varied Inventory by Thinking Small With Impinj and Xindeco",
+   "source_name": "RAIN Alliance (Member News)",
+   "url": "https://therainalliance.org/member-news/",
+   "category": "standards",
+   "vendors": [
+    "Impinj",
+    "Xindeco",
+    "MINISO"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sea-01",
+   "date": "2026-11-19",
+   "title_th": "GS1 Thailand ลงนาม MoU กับ GS1 Japan ด้าน 2D barcode, Digital Link และ DPP",
+   "summary_th": "ในงาน Thailand–Japan Investment and Business Dialogue 2026 ที่โตเกียว มีการลงนาม MoU ระหว่าง GS1 Thailand กับ GS1 Japan เพื่อส่งเสริมบาร์โค้ด 2 มิติ GS1 Digital Link คุณภาพข้อมูล และการตรวจสอบย้อนกลับ เป็นพื้นฐานสำหรับ DPP ผู้ผลิตไทยที่ส่งออกจะต้องการระบบพิมพ์และตรวจโค้ด 2D",
+   "title_en": "FTI identifies Thailand–Japan investment opportunities; GS1 Thailand–GS1 Japan MoU",
+   "source_name": "Federation of Thai Industries (FTI)",
+   "url": "https://fti.or.th/news/1796-fti-identifies-investment-opportunities-between-thailand",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "tsc-x40",
+   "date": "2026-11-19",
+   "title_th": "TSC Auto ID เปิดตัว X40 มือถือองค์กรน้ำหนัก 199 กรัม รวม RFID สแกนบาร์โค้ด และ NFC",
+   "summary_th": "X40 ใช้ชิป Impinj E Family รองรับ Gen2X มีจอ AMOLED 6.11 นิ้ว และได้รางวัล Red Dot 2026 เป็นรุ่นที่ TSC ใช้บุกตลาด mobile computer ต่อจากการซื้อ Bluebird",
+   "title_en": "TSC X40: One Compact Device for Every Frontline Task",
+   "source_name": "TSC Auto ID",
+   "url": "https://usca.tscprinters.com/en/press-releases/tsc-x40-one-compact-device-every-frontline-task-perfect-fusion-design-performance",
+   "category": "product",
+   "vendors": [
+    "TSC Auto ID",
+    "Impinj"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sea-21",
+   "date": "2026-11-18",
+   "title_th": "NAPAS และ NETS เปิดให้ชาวเวียดนามสแกน QR จ่ายเงินในสิงคโปร์",
+   "summary_th": "NAPAS ของเวียดนามและ NETS ของสิงคโปร์เปิดเชื่อมโยงการจ่ายเงินด้วย QR ข้ามแดน เป็นส่วนหนึ่งของเครือข่าย QR อาเซียนที่ขยายตัว",
+   "title_en": "Vietnamese users can now scan QR codes for payments and shopping in Singapore",
+   "source_name": "NAPAS",
+   "url": "https://en.napas.com.vn/news-events",
+   "category": "sea",
+   "vendors": [
+    "NAPAS",
+    "NETS"
+   ],
+   "region": "Singapore"
+  },
+  {
+   "id": "datalogic-smart-vision-suite",
+   "date": "2026-11-18",
+   "title_th": "Datalogic เปิดตัว Smart Vision Suite for Logistics ซอฟต์แวร์ vision สำหรับสายคัดแยก",
+   "summary_th": "แพลตฟอร์มแบบโมดูลต่อยอดจาก WebSentinel ใช้งานร่วมกับระบบ tunnel scanning ของ Datalogic ช่วยแปลงข้อมูลภาพเป็นข้อมูลเชิงปฏิบัติการสำหรับศูนย์กระจายสินค้าและสนามบิน",
+   "title_en": "Datalogic Expands its Software Solutions Portfolio with Smart Vision Suite for Logistics",
+   "source_name": "Datalogic",
+   "url": "https://www.datalogic.com/eng/media-center/press-releases/datalogic-expands-its-software-solutions-portfolio-with-smart-vision-suite-for-logistics-nd-8872.html",
+   "category": "product",
+   "vendors": [
+    "Datalogic"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "std-02",
+   "date": "2026-11-17",
+   "title_th": "Uniqode เพิ่มการรองรับบาร์โค้ด 2D รับ GS1 Sunrise 2027",
+   "summary_th": "แพลตฟอร์ม QR Code Uniqode ประกาศรองรับบาร์โค้ด 2D ตามข้อกำหนดของร้านค้าปลีกก่อนถึง Sunrise 2027 สะท้อนว่าแบรนด์เจ้าของสินค้าเริ่มเตรียมบรรจุภัณฑ์ ซึ่งจะกดดันให้ร้านค้าต้องเปลี่ยนเครื่องสแกนตามมา",
+   "title_en": "Uniqode Supports Brands with 2D Barcode Compatibility Ahead of GS1's Sunrise 2027",
+   "source_name": "PR Newswire",
+   "url": "https://www.prnewswire.com/news-releases/uniqode-supports-brands-with-2d-barcode-compatibility-ahead-of-gs1s-sunrise-2027-302941362.html",
+   "category": "standards",
+   "vendors": [
+    "Uniqode"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sato-q2-fy2026",
+   "date": "2026-11-13",
+   "title_th": "SATO ปรับเป้ารายได้และกำไรทั้งปีขึ้น คาดกำไรจากการดำเนินงานทำสถิติใหม่",
+   "summary_th": "ครึ่งปีแรกยอดขายโต 11% และกำไรจากการดำเนินงานโต 24% ธุรกิจต่างประเทศโตเด่น ส่วนหนึ่งมาจากเงินคืนภาษีนำเข้าสหรัฐฯ",
+   "title_en": "Q2 FY2026 Financial Results (Six Months Ended September 30, 2026)",
+   "source_name": "SATO Corporation",
+   "url": "https://www.sato-global.com/content/dam/sato/corporate/content/global/us-en/ir/library/settlement/2027/fy2026_2q_b.pdf.coredownload.inline.pdf",
+   "category": "financial",
+   "vendors": [
+    "SATO"
+   ],
+   "region": "Japan"
+  },
+  {
+   "id": "sea-15",
+   "date": "2026-11-12",
+   "title_th": "ครม. ไฟเขียวภาษีนำเข้าพัสดุอีคอมเมิร์ซจากต่างประเทศสูงสุด 30% คาดเริ่มต้นปี 2027",
+   "summary_th": "รัฐบาลไทยอนุมัติปรับกฎศุลกากรสำหรับพัสดุด่วนและไปรษณีย์ระหว่างประเทศ เก็บอากรสูงสุด 30% คาดใช้ต้นปี 2027 พัสดุระหว่างประเทศเข้าไทยเพิ่มจาก 134.1 ล้านชิ้นในปี 2024 เป็น 168.4 ล้านชิ้นในปี 2025 งานคัดแยกและสแกนที่ด่านศุลกากรจะเพิ่มขึ้น",
+   "title_en": "Thai businesses back higher online import duties but call for stronger safeguards",
+   "source_name": "Nation (via JIJI Press)",
+   "url": "https://jen-k.jiji.com/jc/eng_agt?g=nation&k=20261112NATION-40073398",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "toshiba-tec-h1-fy2026",
+   "date": "2026-11-11",
+   "title_th": "Toshiba Tec พลิกกลับมามีกำไรครึ่งปีแรก รายได้ทำสถิติใหม่จากยอดขาย POS ต่างประเทศ",
+   "summary_th": "รายได้ครึ่งปีแรก 301.99 พันล้านเยน เพิ่มขึ้น 17% และกำไรจากการดำเนินงาน 10.09 พันล้านเยน แรงหนุนหลักมาจากยอดขาย POS ในต่างประเทศ",
+   "title_en": "Toshiba Tec Sees Much Improved Financial Results, Reverses Losses",
+   "source_name": "Wirth Consulting",
+   "url": "https://www.wirthconsulting.org/toshiba-tec-sees-much-improved-financial-results-reverses-losses/",
+   "category": "financial",
+   "vendors": [
+    "Toshiba Tec"
+   ],
+   "region": "Japan"
+  },
+  {
+   "id": "unitech-tb170-plus",
+   "date": "2026-11-11",
+   "title_th": "Unitech เปิดตัวแท็บเล็ต rugged TB170 Plus ระบบ Windows 11",
+   "summary_th": "TB170 Plus รองรับ Wi-Fi 6E และติดตั้งสแกนเนอร์บาร์โค้ดเพิ่มได้ สำหรับงานภาคสนามและคลังสินค้าที่ใช้ Windows",
+   "title_en": "New Product | TB170 Plus Windows 11 Rugged Tablet",
+   "source_name": "Unitech Electronics",
+   "url": "https://www.ute.com/apac/news/articles",
+   "category": "product",
+   "vendors": [
+    "Unitech"
+   ],
+   "region": "Asia Pacific"
+  },
+  {
+   "id": "zebra-price-hike-memory",
+   "date": "2026-11-05",
+   "title_th": "Zebra ขึ้นราคา mobile computer ราว 15% รับต้นทุนหน่วยความจำพุ่ง",
+   "summary_th": "Zebra ปรับราคาเครื่อง handheld ขึ้นประมาณ 15% ในเดือนตุลาคม หลังต้นทุน memory ทั้งปีคาดแตะราว 145 ล้านดอลลาร์ และคาดว่าราคายังขึ้นต่อถึงครึ่งแรกปี 2027 ตัวแทนจำหน่ายในไทยควรเร่งปิดใบเสนอราคาและแจ้งลูกค้าล่วงหน้า",
+   "title_en": "Zebra raises handheld prices about 15% as memory costs climb",
+   "source_name": "The Conveyor",
+   "url": "https://www.theconveyor.co/p/zebra-handheld-prices-15-percent-memory-costs",
+   "category": "market",
+   "vendors": [
+    "Zebra"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "epson-q2-fy2026",
+   "date": "2026-11-05",
+   "title_th": "Seiko Epson รายได้ครึ่งปีแรกโต 11.1% ยอดขายเครื่องพิมพ์ฉลากแข็งแรง",
+   "summary_th": "รายได้ครึ่งปีแรก 741.1 พันล้านเยน กลุ่ม Commercial & Industrial Printing มียอดขายเครื่องพิมพ์ภาพถ่ายและเครื่องพิมพ์ฉลากเติบโตดี",
+   "title_en": "Second Quarter Financial Results Fiscal Year 2026 (Ending March 2027)",
+   "source_name": "Seiko Epson",
+   "url": "https://corporate.epson/en/investors/publications/financial-reports/2026/pdf/2026_2q_presentation_wn_eng.pdf",
+   "category": "financial",
+   "vendors": [
+    "Epson"
+   ],
+   "region": "Japan"
+  },
+  {
+   "id": "zebra-jd-sports-rfid",
+   "date": "2026-11-04",
+   "title_th": "JD Sports ใช้ Zebra TC2 + RFD40 RFID ดันสินค้าบนชั้นวางพร้อมขาย 98%",
+   "summary_th": "JD Sports ใช้ mobile computer TC2 Series คู่ RFID sled RFD40 ร่วมกับซอฟต์แวร์ Checkpoint ItemOptix ทำให้ on-shelf availability 98% และเติมสินค้าเร็วขึ้น 20% เป็นกรณีศึกษาที่ใช้เสนอลูกค้าค้าปลีกแฟชั่นในไทยได้",
+   "title_en": "JD Sports Achieves 98% On-Shelf Availability with Zebra Mobile Computing and RFID Solutions",
+   "source_name": "Zebra Technologies (Business Wire)",
+   "url": "https://investors.zebra.com/news-and-events/news/news-details/2026/JD-Sports-Achieves-98-On-Shelf-Availability-with-Zebra-Mobile-Computing-and-RFID-Solutions/default.aspx",
+   "category": "rfid",
+   "vendors": [
+    "Zebra"
+   ],
+   "region": "United Kingdom"
+  },
+  {
+   "id": "cognex-q3-2026",
+   "date": "2026-11-04",
+   "title_th": "Cognex ทำรายได้ Q3/2026 สูงสุดเป็นประวัติการณ์ 313 ล้านดอลลาร์ และปรับเป้าทั้งปีขึ้น",
+   "summary_th": "รายได้โต 13% (19% หากไม่รวมรายการพิเศษ) Adjusted EBITDA margin 35.5% ปรับคาดการณ์ทั้งปี 2026 ขึ้น สะท้อนการลงทุนระบบอัตโนมัติในโรงงานและโลจิสติกส์ที่ฟื้นตัว",
+   "title_en": "Cognex Reports Third Quarter 2026 Results",
+   "source_name": "PR Newswire",
+   "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html",
+   "category": "financial",
+   "vendors": [
+    "Cognex"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "zebra-q3-2026",
+   "date": "2026-11-03",
+   "title_th": "Zebra ประกาศผลประกอบการ Q3/2026 ยอดขายโต 22.3% แตะ 1,614 ล้านดอลลาร์",
+   "summary_th": "ยอดขายรวม 1,614 ล้านดอลลาร์ เติบโตแบบ organic 11.3% กลุ่ม Connected Frontline (mobile computer/สแกนเนอร์) โต 15% แต่ gross margin ลดลงเหลือ 45.7% จากต้นทุนหน่วยความจำ สะท้อนดีมานด์ฮาร์ดแวร์ที่ยังแข็งแรง",
+   "title_en": "Zebra Technologies Announces Third Quarter 2026 Results",
+   "source_name": "Zebra Technologies (Business Wire)",
+   "url": "https://investors.zebra.com/news-and-events/news/news-details/2026/Zebra-Technologies-Announces-Third-Quarter-2026-Results/default.aspx",
+   "category": "financial",
+   "vendors": [
+    "Zebra"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "citizen-cl-s403dtii",
+   "date": "2026-11-02",
+   "title_th": "Citizen วางจำหน่าย CL-S403DTII เครื่องพิมพ์ฉลาก 300 dpi ขนาดกะทัดรัดพร้อมระบบโหลดกระดาษอัตโนมัติ",
+   "summary_th": "รุ่น 300 dpi ต่อจาก CL-S400DTII ที่เปิดตัวในเดือนกุมภาพันธ์ 2026 เหมาะกับงานฉลากขนาดเล็กที่ต้องการความคมชัด",
+   "title_en": "Compact 300 dpi CL-S403DTII with auto-loading now available",
+   "source_name": "Citizen Systems Japan",
+   "url": "https://www.citizen-systems.co.jp/en/printer/topics/",
+   "category": "product",
+   "vendors": [
+    "Citizen"
+   ],
+   "region": "Japan"
+  },
+  {
+   "id": "std-11",
+   "date": "2026-10-29",
+   "title_th": "WITEX 2027 จับมือ RAIN Alliance ขยายระบบนิเวศ RAIN RFID",
+   "summary_th": "ผู้จัดงาน World Intelligent Technology Expo (WITEX 2027) ร่วมมือเชิงกลยุทธ์กับ RAIN Alliance เพื่อเร่งการใช้ RAIN RFID ทั่วโลก",
+   "title_en": "WITEX 2027 and RAIN Alliance Form Strategic Partnership to Advance the Global RAIN RFID Ecosystem",
+   "source_name": "RAIN Alliance",
+   "url": "https://therainalliance.org/news/",
+   "category": "standards",
+   "vendors": [],
+   "region": "Global"
+  },
+  {
+   "id": "avery-q3-2026",
+   "date": "2026-10-29",
+   "title_th": "Avery Dennison ยอดขาย Q3/2026 โต 5.2% แตะ 2.3 พันล้านดอลลาร์",
+   "summary_th": "ยอดขายโตแบบ organic 3.7% แม้ลูกค้าบางส่วนลดสต็อก Avery Dennison เป็นผู้ผลิต RFID inlay รายใหญ่ ซึ่งสะท้อนดีมานด์แท็ก RFID ในค้าปลีกโลก",
+   "title_en": "Avery Dennison Announces Third Quarter 2026 Results",
+   "source_name": "Avery Dennison (SEC 8-K)",
+   "url": "http://www.sec.gov/Archives/edgar/data/8818/000000881826000162/ex9918k10-29x26.htm",
+   "category": "financial",
+   "vendors": [
+    "Avery Dennison"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "impinj-q3-2026",
+   "date": "2026-10-28",
+   "title_th": "Impinj ทำรายได้ Q3/2026 สูงสุดเป็นประวัติการณ์ 112.1 ล้านดอลลาร์ จากชิป M800",
+   "summary_th": "รายได้และปริมาณชิปแท็กทำสถิติใหม่จากชิป M800 ดีมานด์ค้าปลีก และ Gen2X คาดรายได้ Q4 อยู่ที่ 104–107 ล้านดอลลาร์ ซึ่งบ่งชี้ว่าการใช้ RFID ระดับชิ้นสินค้ายังขยายตัว",
+   "title_en": "Impinj Reports Third Quarter 2026 Financial Results",
+   "source_name": "Impinj (Business Wire)",
+   "url": "https://investor.impinj.com/news/press-release/2026/Impinj-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+   "category": "financial",
+   "vendors": [
+    "Impinj"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "zebra-orafol-ai-vision",
+   "date": "2026-10-26",
+   "title_th": "ORAFOL ลดเวลาตรวจสอบคุณภาพครึ่งหนึ่งด้วย AI machine vision ของ Zebra",
+   "summary_th": "ORAFOL Fresnel Optics ใช้ Zebra Aurora Vision Studio กับ Aurora Deep Learning ตรวจเลนส์กว่า 1.5 ล้านชิ้นอัตโนมัติ ลดเวลาตรวจลงครึ่งหนึ่ง แสดงว่า Zebra รุกตลาด machine vision โรงงานอย่างจริงจัง",
+   "title_en": "ORAFOL Fresnel Optics Cuts Inspection Times in Half with Zebra Technologies' AI Machine Vision Solution",
+   "source_name": "Zebra Technologies (Business Wire)",
+   "url": "https://investors.zebra.com/news-and-events/news/news-details/2026/ORAFOL-Fresnel-Optics-Cuts-Inspection-Times-in-Half-with-Zebra-Technologies-AI-Machine-Vision-Solution/default.aspx",
+   "category": "product",
+   "vendors": [
+    "Zebra"
+   ],
+   "region": "Germany"
+  },
+  {
+   "id": "sea-16",
+   "date": "2026-10-12",
+   "title_th": "ไทยขยายสิทธิประโยชน์ภาษีส่งเสริม e-Tax Invoice และ e-Receipt ถึงสิ้นปี 2027",
+   "summary_th": "กฎกระทรวงฉบับที่ 402 (1 ต.ค. 2026) และพระราชกฤษฎีกาฉบับที่ 808 (12 ต.ค. 2026) ขยายสิทธิประโยชน์ภาษีสำหรับระบบ e-Withholding Tax, e-Tax Invoice และ e-Receipt ให้มีผล 1 ม.ค. 2026–31 ธ.ค. 2027 ธุรกิจค้าปลีกที่ลงทุนระบบ POS และระบบภาษีอิเล็กทรอนิกส์หักค่าใช้จ่ายเพิ่มได้",
+   "title_en": "Extension of tax measures to promote electronic tax systems",
+   "source_name": "Deloitte tax@hand",
+   "url": "https://www.taxathand.com/article/41996/Thailand/2026/Extension-of-tax-measures-to-promote-electronic-tax-systems",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "epson-colorworks-pack-expo",
+   "date": "2026-10-06",
+   "title_th": "Epson โชว์เครื่องพิมพ์ฉลากสี ColorWorks ทำงานร่วมกับหุ่นยนต์และระบบ vision ที่ PACK EXPO",
+   "summary_th": "Epson นำเสนอการพิมพ์ฉลากสีตามสั่งที่ทำงานร่วมกับหุ่นยนต์ collaborative และกล้อง vision ในสายบรรจุภัณฑ์ เป็นโอกาสขายเครื่องพิมพ์ฉลากสีให้ผู้ผลิตอาหารและเครื่องสำอาง",
+   "title_en": "Epson Brings Color Labeling and Robotic Automation Innovation to PACK EXPO",
+   "source_name": "Epson America",
+   "url": "https://news.epson.com/news/colorworks-labels-robotics-pack-expo-2026",
+   "category": "product",
+   "vendors": [
+    "Epson"
+   ],
+   "region": "United States"
+  },
+  {
+   "id": "std-17",
+   "date": "2026-10-01",
+   "title_th": "NACS: เตรียมระบบ POS ร้านสะดวกซื้อรับ Sunrise 2027",
+   "summary_th": "นิตยสาร NACS ฉบับ ต.ค. 2026 อธิบายบทบาท GS1 US, Conexxus และ Verifone ในการเตรียม POS ร้านสะดวกซื้อให้สแกน 2D ได้ภายในสิ้นปี 2027 ใช้เป็นข้อมูลประกอบการขายให้เครือร้านสะดวกซื้อในไทย",
+   "title_en": "Setting Up the Sunrise (NACS Magazine, October 2026)",
+   "source_name": "NACS Magazine",
+   "url": "https://www.nacsmagazine.com/issues/october-2026/setting-up-the-sunrise",
+   "category": "standards",
+   "vendors": [
+    "Verifone"
+   ],
+   "region": "USA"
+  },
+  {
+   "id": "zebra-gen2x-readers",
+   "date": "2026-10-01",
+   "title_th": "Zebra อัปเกรด RFID reader ทั้งพอร์ตโฟลิโอให้รองรับ Impinj Gen2X",
+   "summary_th": "รุ่นที่รองรับแล้วได้แก่ MC33, TC22R, RFD40, RFD90, FXR90, FX9600 และ ATR7000 ผ่านการอัปเดตเฟิร์มแวร์ ช่วยอ่านแท็กสินค้ายาก เช่น ของเหลวและโลหะ ลูกค้าเดิมในไทยได้ประโยชน์โดยไม่ต้องเปลี่ยนเครื่อง",
+   "title_en": "Zebra Technologies Upgrades RFID Readers with Impinj Gen2X",
+   "source_name": "RFID Journal",
+   "url": "https://www.rfidjournal.com/news/zebra-technologies-upgrades-rfid-readers-with-impinj-gen2x/225679/",
+   "category": "rfid",
+   "vendors": [
+    "Zebra",
+    "Impinj"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sea-20",
+   "date": "2026-09-30",
+   "title_th": "Touch 'n Go เพิ่มช่อง Enhanced RFID 10 ช่องรับระบบ MLFF มาเลเซีย",
+   "summary_th": "Touch 'n Go ขยายช่องทางด่วน Enhanced RFID 10 ช่องบน 5 ทางหลวงภายในไตรมาส 4/2026 เพื่อเตรียมระบบเก็บค่าผ่านทางแบบไม่มีไม้กั้น",
+   "title_en": "Touch 'n Go to add 10 Enhanced RFID lanes by Q4 2026",
+   "source_name": "SoyaCincau",
+   "url": "https://soyacincau.com/2026/09/30/tng-enhanced-rfid-roll-out-10-lanes/",
+   "category": "sea",
+   "vendors": [
+    "Touch 'n Go"
+   ],
+   "region": "Malaysia"
+  },
+  {
+   "id": "cognex-realsense",
+   "date": "2026-09-22",
+   "title_th": "Cognex ทุ่ม 500 ล้านดอลลาร์ซื้อ RealSense ผู้ผลิตกล้อง 3D สำหรับหุ่นยนต์",
+   "summary_th": "Cognex ใช้ดีลนี้ขยายจาก machine vision ในโรงงานไปสู่ robotic perception และ Physical AI คาดว่าดีลจะปิดใน Q4/2026",
+   "title_en": "Cognex to Acquire RealSense, Expanding Machine Vision Leadership into High-Growth Robotic Perception Market",
+   "source_name": "Cognex (SEC 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/851205/000085120526000071/exhibit991-pressrelease.htm",
+   "category": "corporate",
+   "vendors": [
+    "Cognex"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "cognex-realsense-israel",
+   "date": "2026-09-22",
+   "title_th": "ดีล Cognex–RealSense มูลค่ารวมเกิน 600 ล้านดอลลาร์ เป็นการซื้อกิจการในอิสราเอลครั้งแรก",
+   "summary_th": "นอกจากเงินสด 500 ล้านดอลลาร์แล้ว ยังมีแผนสิทธิซื้อหุ้นและเงินรักษาพนักงานรวมเกิน 100 ล้านดอลลาร์ RealSense เป็นบริษัทที่แยกตัวออกมาจาก Intel",
+   "title_en": "In first Israel acquisition, Cognex buys Intel robotics spinoff for over $600 million",
+   "source_name": "The Times of Israel",
+   "url": "https://www.timesofisrael.com/in-first-israel-acquisition-cognex-buys-intel-robotics-spinoff-for-over-600-million/",
+   "category": "corporate",
+   "vendors": [
+    "Cognex"
+   ],
+   "region": "Israel"
+  },
+  {
+   "id": "identiv-inve",
+   "date": "2026-09-18",
+   "title_th": "Identiv ขายธุรกิจ IoT/RFID ให้ Trackonomy และเปลี่ยนชื่อเป็น INVE Technologies",
+   "summary_th": "Identiv ได้รับหุ้นบุริมสิทธิ์ของ Trackonomy มูลค่า 50 ล้านดอลลาร์ และเปลี่ยนทิศทางไปทำ SaaS ด้าน Physical AI compliance แสดงว่าตลาดฉลากอัจฉริยะยังมีการปรับโครงสร้างต่อเนื่อง",
+   "title_en": "Identiv Completes Sale of IoT Assets, Renames Company INVE Technologies",
+   "source_name": "RFID Journal",
+   "url": "https://www.rfidjournal.com/news/identiv-completes-sale-of-iot-assets-and-renames-company-inve-technologies/225551/",
+   "category": "rfid",
+   "vendors": [],
+   "region": "United States"
+  },
+  {
+   "id": "sea-14",
+   "date": "2026-09-17",
+   "title_th": "Central Retail ร่วม NAPAS และ VietinBank เปิดจ่ายเงินข้ามแดนผ่าน VietQR Global",
+   "summary_th": "Central Retail ลงนาม MoU กับ NAPAS และ VietinBank ให้ลูกค้าเวียดนามสแกน VietQR จ่ายเงินในร้านเครือ Central ในไทย ร้านค้าต้องใช้ระบบที่อ่าน QR ได้",
+   "title_en": "NAPAS, VietinBank and Thailand's Central Retail Corporation sign MoU on VietQR Global",
+   "source_name": "NAPAS",
+   "url": "https://en.napas.com.vn/napas-vietinbank-and-thailands-central-retail-corporation-sign-memorandum-of-understanding-184260922144659425.htm",
+   "category": "sea",
+   "vendors": [
+    "Central Retail",
+    "NAPAS",
+    "VietinBank"
+   ],
+   "region": "Thailand"
+  },
+  {
+   "id": "zebra-kc401-kiosk",
+   "date": "2026-09-17",
+   "title_th": "Zebra เปิดตัวคีออสก์ KC401 ระบบ Android จอ 10 นิ้ว สำหรับงาน self-service",
+   "summary_th": "KC401 ขยายกลุ่มผลิตภัณฑ์ self-service ที่รวมโซลูชันจาก Elo ซึ่งตอนนี้เป็นส่วนหนึ่งของ Zebra เหมาะกับค้าปลีก โรงพยาบาล และโรงงาน",
+   "title_en": "Zebra Technologies Introduces KC401 Kiosk to Drive Smarter Self-Service Across Industries",
+   "source_name": "Zebra Technologies (Business Wire)",
+   "url": "https://investors.zebra.com/news-and-events/news/news-details/2026/Zebra-Technologies-Introduces-KC401-Kiosk-to-Drive-Smarter-Self-Service-Across-Industries/default.aspx",
+   "category": "product",
+   "vendors": [
+    "Zebra"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sato-singapore-blood-rfid",
+   "date": "2026-09-15",
+   "title_th": "SATO วางระบบ RFID จัดการโลหิตระดับประเทศให้สิงคโปร์",
+   "summary_th": "ระบบ RFID ของ Health Sciences Authority ใช้งานแล้วในโรงพยาบาลรัฐและเอกชนทุกแห่ง ติดตามส่วนประกอบโลหิตได้อัตโนมัติ เป็นกรณีศึกษา RFID ด้านสุขภาพในอาเซียนที่ใช้เสนอโรงพยาบาลไทยได้",
+   "title_en": "SATO Empowers Singapore's Next-Generation Blood Supply Management System with Advanced RFID Technology",
+   "source_name": "SATO Asia Pacific",
+   "url": "https://satoasiapacific.com/thailand/news/sato-singapore-blood-supply-rfid/",
+   "category": "rfid",
+   "vendors": [
+    "SATO"
+   ],
+   "region": "Singapore"
+  },
+  {
+   "id": "avery-ad-visi-ble",
+   "date": "2026-09-15",
+   "title_th": "Avery Dennison เปิดตัว AD Visi ฉลาก Active Bluetooth Low Energy ติดตามพัสดุสำคัญ",
+   "summary_th": "ฉลาก BLE แบบ active สำหรับติดตามการขนส่งสินค้ามูลค่าสูงหรือสินค้าที่ต้องส่งให้ทันเวลา ช่วยเสริม RFID แบบ passive",
+   "title_en": "Avery Dennison announces new Active Bluetooth Low Energy label range",
+   "source_name": "Avery Dennison",
+   "url": "https://rfid.averydennison.com/en/home/news-insights/press-releases.html",
+   "category": "rfid",
+   "vendors": [
+    "Avery Dennison"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "std-05",
+   "date": "2026-09-14",
+   "title_th": "Domino หันมาใช้ QR Code ตามมาตรฐาน GS1 Digital Link",
+   "summary_th": "Domino Printing Sciences ผู้ผลิตเครื่องพิมพ์โค้ดอุตสาหกรรมเริ่มรองรับ QR Code ตามมาตรฐาน GS1 Digital Link เพื่อช่วยผู้ผลิตย้ายไปใช้โค้ด 2D โรงงานในไทยจะต้องการเครื่องพิมพ์และเครื่องตรวจโค้ดที่รองรับ 2D มากขึ้น",
+   "title_en": "Domino Adopts QR Codes Powered by GS1 to Support Customers' Move to 2D Codes",
+   "source_name": "Domino Printing Sciences",
+   "url": "https://www.domino-printing.com/en-us/news-and-events/2026/domino-adopts-qr-codes-powered-by-gs1-to-support-customers-move-to-2d-codes",
+   "category": "standards",
+   "vendors": [
+    "Domino"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "urovo-sp35-u100",
+   "date": "2026-09-10",
+   "title_th": "UROVO เปิดตัว SP35 Personal Shopper และเครื่องเช็กราคา U100 สำหรับร้านค้าปลีก",
+   "summary_th": "UROVO เปิดตัวที่สิงคโปร์ เป็นอุปกรณ์ self-service ทั้งแบบพกพาและติดชั้นวาง ซึ่งแข่งกับ Zebra และ Datalogic Joya ในตลาดค้าปลีกอาเซียน",
+   "title_en": "UROVO Launches SP35 and U100 to Extend Self-Service Across the Shop Floor",
+   "source_name": "UROVO",
+   "url": "https://en.urovo.com/News/info/SP35andU100.html",
+   "category": "product",
+   "vendors": [
+    "Urovo"
+   ],
+   "region": "Singapore"
+  },
+  {
+   "id": "std-06",
+   "date": "2026-09-08",
+   "title_th": "W3C และ GS1 จัดเวิร์กช็อปอีคอมเมิร์ซสำหรับมนุษย์และ AI Agent ที่ซูริก",
+   "summary_th": "W3C และ GS1 จัดเวิร์กช็อป E-commerce for Humans and AI Agents วันที่ 8–9 ก.ย. 2026 ที่ซูริก หารือเรื่องการระบุตัวตนสินค้า (เช่น GTIN) ให้ AI agent ใช้ได้ ชี้ว่าข้อมูลสินค้าตามมาตรฐาน GS1 จะสำคัญขึ้นในยุค agentic commerce",
+   "title_en": "Digital Link CEO to speak at the W3C/GS1 Workshop on E-commerce for Humans and AI Agents",
+   "source_name": "Digital Link",
+   "url": "https://digital-link.com/news/w3c-gs1-workshop-on-e-commerce-ai-agents/",
+   "category": "standards",
+   "vendors": [],
+   "region": "Global"
+  },
+  {
+   "id": "zebra-vision-2026-3d-ai",
+   "date": "2026-09-07",
+   "title_th": "Zebra เปิดตัวโซลูชัน 3D และ AI machine vision สำหรับงานโลจิสติกส์ที่งาน VISION 2026",
+   "summary_th": "Zebra โชว์ smart vision sensor NS42 ที่เพิ่มฟีเจอร์ deep learning พร้อมทีม Photoneo ซึ่งตอนนี้เป็นส่วนหนึ่งของ Zebra เจาะงานตรวจพัสดุ ตรวจฉลาก และหยิบจับด้วยหุ่นยนต์",
+   "title_en": "Zebra Technologies Debuts New 3D and AI Solutions for Logistics at VISION 2026",
+   "source_name": "Zebra Technologies",
+   "url": "https://www.zebra.com/gb/en/about-zebra/newsroom/press-releases/2026/zebra-technologies-debuts-new-3d-and-ai-solutions-for-logistics-at-vision-2026.html",
+   "category": "product",
+   "vendors": [
+    "Zebra"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "brady-q4-fy2026",
+   "date": "2026-09-03",
+   "title_th": "Brady รายงานผลประกอบการ Q4 ปีงบ 2026 รายได้ทั้งปีทำสถิติใหม่",
+   "summary_th": "Brady ทำรายได้และกำไรต่อหุ้นปรับปรุงสูงสุดเป็นประวัติการณ์ในปีงบประมาณที่สิ้นสุด 31 ก.ค. 2026 และให้แนวโน้มปีงบ 2027 ที่รวมธุรกิจ PSS แล้ว ผลไตรมาสแรกปีงบ 2027 จะประกาศ 8 ธ.ค. 2026",
+   "title_en": "Brady Corporation Reports 2026 Fourth Quarter and Record Full Year Results",
+   "source_name": "Brady Corporation (SEC)",
+   "url": "https://www.sec.gov/Archives/edgar/data/746598/000074659826000043/exhibit991-financialsx2026.htm",
+   "category": "financial",
+   "vendors": [
+    "Brady",
+    "Honeywell"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "brother-rj-series-2026",
+   "date": "2026-09-03",
+   "title_th": "Brother เปิดตัวเครื่องพิมพ์ฉลากพกพา RJ Series ใหม่ 4 รุ่น รองรับ WPA3",
+   "summary_th": "รุ่นใหม่ได้แก่ RJ-4255WB, RJ-4235B, RJ-3255WB-L และ RJ-3235B-L ขนาด 3 และ 4 นิ้ว มีมาตรฐาน IP54 และทนการตก 2 เมตร วางขายในญี่ปุ่นปลายเดือนตุลาคม 2026",
+   "title_en": "(Translated from Japanese) Brother launches four new RJ Series mobile thermal label printers",
+   "source_name": "Brother Industries",
+   "url": "https://www.brother.co.jp/news/2026/rjseries/index.aspx",
+   "category": "product",
+   "vendors": [
+    "Brother"
+   ],
+   "region": "Japan"
+  },
+  {
+   "id": "datalogic-delisting",
+   "date": "2026-09-02",
+   "title_th": "Datalogic ถอนหุ้นออกจากตลาด Euronext STAR Milan หลัง Hydra ทำ tender offer สำเร็จ",
+   "summary_th": "Hydra Investimenti ถือหุ้นเกิน 90% และใช้สิทธิ์ squeeze-out ที่ราคา 5.70 ยูโรต่อหุ้น หุ้น Datalogic ถูกเพิกถอนตั้งแต่ 9 ก.ย. 2026 ทำให้บริษัทเป็นบริษัทเอกชนและเปิดเผยข้อมูลการเงินน้อยลง",
+   "title_en": "Launch of the Joint Procedure and delisting of Datalogic S.p.A. shares",
+   "source_name": "Datalogic / Hydra Investimenti (eMarket Storage)",
+   "url": "https://www.emarketstorage.it/sites/default/files/comunicati/2026-09/20260902_188697.pdf",
+   "category": "corporate",
+   "vendors": [
+    "Datalogic"
+   ],
+   "region": "Italy"
+  },
+  {
+   "id": "avery-ad-fusion",
+   "date": "2026-08-18",
+   "title_th": "Avery Dennison เปิดตัวโปรแกรม AD Fusion ช่วยโรงพิมพ์ฉลากเริ่มผลิตฉลาก RFID ได้ง่ายขึ้น",
+   "summary_th": "AD Fusion ส่งวัสดุฉลากที่ฝัง RFID inlay มาให้แล้ว โรงพิมพ์จึงไม่ต้องลงทุนเครื่องสอด inlay เอง ช่วยลดต้นทุนเริ่มต้นของ converter รวมถึงในไทย",
+   "title_en": "Avery Dennison Advances RFID Accessibility with the Launch of AD Fusion",
+   "source_name": "Avery Dennison",
+   "url": "https://label.averydennison.com/na/en/home/press-releases/08-18-26.html",
+   "category": "rfid",
+   "vendors": [
+    "Avery Dennison"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "unitech-ea530",
+   "date": "2026-08-17",
+   "title_th": "Unitech เปิดตัว EA530 สมาร์ทโฟน rugged เน้นต้นทุนรวมตลอดอายุการใช้งาน",
+   "summary_th": "EA530 จอ 6 นิ้ว รองรับ 4G และ Wi-Fi 6E ได้การรับรอง Android Enterprise Recommended และมีนโยบาย lifecycle แบบ 4+4 ปี ใช้เป็นจุดขายด้าน TCO กับลูกค้าค้าปลีกและโลจิสติกส์",
+   "title_en": "Unitech Launches EA530 Targeting TCO Optimization in Enterprise AIDC Deployments",
+   "source_name": "PR Newswire",
+   "url": "https://www.prnewswire.com/news-releases/unitech-launches-ea530-targeting-tco-optimization-in-enterprise-aidc-deployments-302849640.html",
+   "category": "product",
+   "vendors": [
+    "Unitech"
+   ],
+   "region": "Taiwan"
+  },
+  {
+   "id": "tsc-auburn-rfid-lab",
+   "date": "2026-08-12",
+   "title_th": "TSC Auto ID เข้าร่วมคณะที่ปรึกษา Auburn University RFID Lab",
+   "summary_th": "TSC ย้ำว่าจะลงทุนด้านมาตรฐานและการใช้งาน RFID ต่อเนื่อง ทั้งเครื่องพิมพ์ RFID และอุปกรณ์ Bluebird",
+   "title_en": "TSC Auto ID Joins Auburn University RFID Lab Advisory Board",
+   "source_name": "TSC Auto ID",
+   "url": "https://usca.tscprinters.com/en/news",
+   "category": "rfid",
+   "vendors": [
+    "TSC Auto ID"
+   ],
+   "region": "United States"
+  },
+  {
+   "id": "decisionpoint-abr",
+   "date": "2026-08-10",
+   "title_th": "DecisionPoint ซื้อ AB&R (American Barcode and RFID) จาก Brady",
+   "summary_th": "ผู้รวมระบบ mobility ในสหรัฐฯ ซื้อ AB&R ผู้ให้บริการบาร์โค้ด RFID และ IoT มากว่า 40 ปี สะท้อนการควบรวมในกลุ่มผู้รวมระบบและตัวแทนจำหน่าย",
+   "title_en": "DecisionPoint Technologies Expands RFID and IoT Leadership Through Acquisition of AB&R",
+   "source_name": "DecisionPoint Technologies",
+   "url": "https://www.decisionpt.com/about-us/news-events/acquisition-of-abr/",
+   "category": "market",
+   "vendors": [
+    "Brady"
+   ],
+   "region": "United States"
+  },
+  {
+   "id": "std-14",
+   "date": "2026-08-06",
+   "title_th": "FDA ขยายข้อยกเว้น DSCSA ให้ร้านยาขนาดเล็กถึง 27 พ.ย. 2027",
+   "summary_th": "FDA ขยายข้อยกเว้นข้อกำหนดการตรวจสอบย้อนกลับยาระดับบรรจุภัณฑ์ (enhanced drug distribution security) ให้ร้านยาขนาดเล็กไปถึง 27 พ.ย. 2027 ผู้ผลิตยาไทยที่ส่งออกสหรัฐฯ ยังต้องทำ serialization ตามเดิม",
+   "title_en": "DSCSA Exemptions for Small Business Dispensers until November 27, 2027",
+   "source_name": "U.S. FDA",
+   "url": "https://www.fda.gov/media/194424/download?attachment",
+   "category": "standards",
+   "vendors": [],
+   "region": "USA"
+  },
+  {
+   "id": "std-16",
+   "date": "2026-08-04",
+   "title_th": "Zebra รายงานยอดขายไตรมาส 2/2026 โต 20.4%",
+   "summary_th": "Zebra Technologies มียอดขาย 1,557 ล้านดอลลาร์ในไตรมาส 2/2026 เพิ่มขึ้น 20.4% จากปีก่อน สะท้อนความต้องการอุปกรณ์ AIDC ที่ฟื้นตัว",
+   "title_en": "Zebra Technologies Announces Second Quarter 2026 Results",
+   "source_name": "Zebra Technologies",
+   "url": "https://www.zebra.com/us/en/about-zebra/newsroom/press-releases/2026/zebra-technologies-announces-second-quarter-2026-results.html",
+   "category": "standards",
+   "vendors": [
+    "Zebra"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "datalogic-h1-2026",
+   "date": "2026-08-04",
+   "title_th": "Datalogic รายงานรายได้ครึ่งปีแรก 2026 ที่ 248.4 ล้านยูโร เพิ่มขึ้น 3.7%",
+   "summary_th": "รายได้ครึ่งปีแรกโต 3.7% (6.2% หากไม่รวมผลอัตราแลกเปลี่ยน) และ industrial margin อยู่ที่ 43.4%",
+   "title_en": "Board of Directors approves Consolidated Half-Year Financial Report at June 30, 2026",
+   "source_name": "Datalogic",
+   "url": "https://www.datalogic.com/eng/company/media-center/press-releases-nw-7.html",
+   "category": "financial",
+   "vendors": [
+    "Datalogic"
+   ],
+   "region": "Italy"
+  },
+  {
+   "id": "std-15",
+   "date": "2026-08-03",
+   "title_th": "Honeywell ขายธุรกิจ Productivity Solutions (สแกนเนอร์/โมบายคอมพิวเตอร์) ให้ Brady เสร็จสิ้น",
+   "summary_th": "Honeywell ปิดดีลขายธุรกิจ PSS มูลค่า 1.4 พันล้านดอลลาร์ให้ Brady Corporation ผู้แทนจำหน่าย Honeywell ในไทยควรติดตามการเปลี่ยนแปลงโปรแกรมพาร์ทเนอร์ ราคา และการรับประกัน",
+   "title_en": "Honeywell Technologies Completes Sale of Productivity Solutions and Services Business to Brady Corporation",
+   "source_name": "Honeywell / Brady (SEC filing)",
+   "url": "https://www.sec.gov/Archives/edgar/data/746598/000074659826000034/exhibit991-pressreleasex20.htm",
+   "category": "standards",
+   "vendors": [
+    "Honeywell",
+    "Brady"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sea-11",
+   "date": "2026-08-03",
+   "title_th": "ไปรษณีย์ไทยเปิดกลยุทธ์ RelationSHIFT ใช้ข้อมูลและ AI ปี 2026–27",
+   "summary_th": "ไปรษณีย์ไทยเปลี่ยนจากเน้นปริมาณพัสดุไปสู่การเติบโตจากมูลค่า ด้วยข้อมูลลูกค้า AI และพันธมิตร รายได้ปี 2025 อยู่ที่ 22.17 พันล้านบาท",
+   "title_en": "Thailand Post unveils value-driven growth strategy",
+   "source_name": "CEP Research",
+   "url": "https://www.cep-research.com/2026/08/05/thailand-post-unveils-value-driven-growth-strategy/",
+   "category": "sea",
+   "vendors": [
+    "Thailand Post"
+   ],
+   "region": "Thailand"
+  },
+  {
+   "id": "honeywell-pss-brady-close",
+   "date": "2026-08-03",
+   "title_th": "Honeywell ขายธุรกิจ PSS (สแกนเนอร์ mobile computer เครื่องพิมพ์) ให้ Brady เสร็จสิ้น",
+   "summary_th": "ดีลมูลค่า 1.4 พันล้านดอลลาร์ปิดแล้ว แบรนด์สแกนเนอร์ mobile computer และเครื่องพิมพ์ของ Honeywell ย้ายไปอยู่กับ Brady ตัวแทนจำหน่ายในไทยควรติดตามการเปลี่ยนสัญญา partner ช่องทางสั่งซื้อ และการรับประกัน",
+   "title_en": "Honeywell Technologies Completes Sale of Productivity Solutions and Services Business to Brady Corporation",
+   "source_name": "Honeywell",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2026/08/honeywell-technologies-completes-sale-of-productivity-solutions-and-services-business-to-brady-corporation",
+   "category": "corporate",
+   "vendors": [
+    "Honeywell",
+    "Brady"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "std-03",
+   "date": "2026-08-01",
+   "title_th": "IFPA ออกคู่มือใช้บาร์โค้ด 2D บนสติกเกอร์ PLU ผักผลไม้สด",
+   "summary_th": "International Fresh Produce Association ออกคู่มือ (สิงหาคม 2026) สำหรับใส่บาร์โค้ด 2D บนสติกเกอร์ PLU ของผักผลไม้สด เพื่อรองรับ Sunrise 2027 ซูเปอร์มาร์เก็ตที่ขายของสดจะต้องใช้เครื่องสแกนที่อ่าน 2D ขนาดเล็กได้",
+   "title_en": "Global Implementation Guidance for 2D Barcodes on Fresh Produce PLU Stickers (August 2026)",
+   "source_name": "GS1 Canada / IFPA",
+   "url": "https://www.gs1ca.org/documents/standards/2D-Barcode-PLU-Implementation-Guide.pdf",
+   "category": "standards",
+   "vendors": [],
+   "region": "Global"
+  },
+  {
+   "id": "std-10",
+   "date": "2026-08-01",
+   "title_th": "RAIN Alliance ตั้งคณะทำงานด้าน RAIN RFID Sensor",
+   "summary_th": "RAIN Alliance ตั้ง Working Group (ส.ค. 2026) เพื่อพัฒนาระบบนิเวศแท็ก RAIN RFID แบบมีเซนเซอร์ เปิดโอกาสงาน RFID ที่วัดอุณหภูมิหรือสภาพสินค้าในโซ่ความเย็น",
+   "title_en": "RAIN Alliance launches Working Group to support the growing RAIN RFID Sensor ecosystem",
+   "source_name": "RAIN Alliance",
+   "url": "https://therainalliance.org/rain-alliance-launches-working-group-to-support-the-growing-rain-rfid-sensor-ecosystem/",
+   "category": "standards",
+   "vendors": [],
+   "region": "Global"
+  },
+  {
+   "id": "std-01",
+   "date": "2026-07-30",
+   "title_th": "GS1 ออกเอกสารแนะนำให้ค้าปลีกย้ายสินค้า Private Label ไปใช้บาร์โค้ด 2D เดียว",
+   "summary_th": "GS1 ย้ำเป้าหมายให้ระบบ POS ทุกแห่งอ่านบาร์โค้ด 2D ตามมาตรฐาน GS1 ได้ภายในสิ้นปี 2027 และแนะนำให้ร้านค้าปลีกอัปเกรดเครื่องสแกน POS ให้รองรับ GS1 DataMatrix และ QR Code with GS1 Digital Link ผู้แทนจำหน่ายในไทยมีโอกาสเสนอเครื่องสแกน 2D imager ให้ลูกค้าค้าปลีกและร้านที่ติดฉลากเองในร้าน",
+   "title_en": "GS1 position paper: migration to a single GS1 conformant 2D barcode for retailer private label products",
+   "source_name": "GS1 (ref.gs1.org)",
+   "url": "https://ref.gs1.org/docs/2025/single-2D-barcode-for-private-label-products/2.0.0/Retailer-migrate-single-2D-PosPaper-r2.0.0-a-2026-07-30",
+   "category": "standards",
+   "vendors": [],
+   "region": "Global"
+  },
+  {
+   "id": "impinj-q2-2026",
+   "date": "2026-07-29",
+   "title_th": "Impinj รายงานรายได้ Q2/2026 ที่ 108.4 ล้านดอลลาร์",
+   "summary_th": "ผลประกอบการ Q2/2026 ที่ต่อมาเติบโตเป็นสถิติใหม่ใน Q3 แสดงถึงแนวโน้ม RAIN RFID ที่แข็งแรงตลอดปี",
+   "title_en": "Impinj Reports Second Quarter 2026 Financial Results",
+   "source_name": "Impinj (SEC 8-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/1114995/000119312526323768/pi-ex99_1.htm",
+   "category": "financial",
+   "vendors": [
+    "Impinj"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "honeywell-wws-aip",
+   "date": "2026-07-27",
+   "title_th": "Honeywell ขายธุรกิจ Warehouse and Workflow Solutions (Intelligrated) ให้ AIP เสร็จสิ้น",
+   "summary_th": "ธุรกิจระบบอัตโนมัติในคลังสินค้า รวมแบรนด์ Intelligrated ไปอยู่กับ American Industrial Partners และรวมกับ Trew และ Transnorm ทำให้ Honeywell ออกจากธุรกิจคลังสินค้าและ AIDC ทั้งหมด",
+   "title_en": "Honeywell Technologies Completes Sale of Warehouse and Workflow Solutions Business to American Industrial Partners",
+   "source_name": "Honeywell",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2026/07/honeywell-technologies-completes-sale-of-warehouse-and-workflow-solutions-business-to-american-industrial-partners?",
+   "category": "corporate",
+   "vendors": [
+    "Honeywell"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "std-09",
+   "date": "2026-07-23",
+   "title_th": "Walmart และ Hanes ทดลอง RFID + 2D บนกล่องสินค้า อ่านได้ 99.9998%",
+   "summary_th": "โครงการ Operation Brilliance ของ GS1 US ใช้ RFID และบาร์โค้ด 2D แบบ SSCC++ ตามมาตรฐาน GS1 TDS 2.3 กับกล่อง 30,000 ใบ อ่านได้ 99.9998% ที่ศูนย์กระจายสินค้า และ 97% ที่ร้าน ชี้ทางให้ลูกค้าคลังสินค้าในไทยที่ต้องการติดตามระดับกล่อง",
+   "title_en": "Pilot from Walmart, Hanes/Gildan Teaches Cartons to Talk via RFID, 2D",
+   "source_name": "Packaging World",
+   "url": "https://www.packworld.com/trends/logistics-supply-chain/article/22971183/rfid-supply-chain-pilot-walmart-hanes-achieve-100-tracking",
+   "category": "standards",
+   "vendors": [
+    "Walmart",
+    "Hanesbrands",
+    "Gildan"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "std-08",
+   "date": "2026-07-20",
+   "title_th": "ระบบ DPP Registry ของ EU เริ่มใช้งาน",
+   "summary_th": "ตามไทม์ไลน์ของคณะกรรมาธิการยุโรป DPP Registry ซึ่งเก็บรหัสเฉพาะของสินค้าเริ่มใช้งานวันที่ 20 ก.ค. 2026 และเหล็กกล้าเป็นกลุ่มสินค้าแรกๆ ในปี 2026 ผู้ประกอบการมีช่วงเปลี่ยนผ่านอย่างน้อย 18 เดือนหลังออกกฎแต่ละหมวด",
+   "title_en": "Digital Product Passport: DPP Registry becomes operational (EU timeline)",
+   "source_name": "European Commission",
+   "url": "https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en",
+   "category": "standards",
+   "vendors": [],
+   "region": "EU"
+  },
+  {
+   "id": "uid-aeg-id",
+   "date": "2026-07-17",
+   "title_th": "UID ซื้อ AEG ID ผู้ผลิต RFID อุตสาหกรรมจากเยอรมนี",
+   "summary_th": "UID ได้ทั้งสำนักงานใหญ่ในเมือง Ulm และโรงงานในเช็ก เพื่อขยายโซลูชัน RFID ด้านการผลิต สุขภาพ เซมิคอนดักเตอร์ และปศุสัตว์",
+   "title_en": "UID, AEG ID Combine to Expand Industrial RFID Solutions",
+   "source_name": "RFID Journal",
+   "url": "https://www.rfidjournal.com/news/uid-aeg-id-combine-to-expand-industrial-rfid-solutions/225173/",
+   "category": "rfid",
+   "vendors": [],
+   "region": "Germany"
+  },
+  {
+   "id": "std-07",
+   "date": "2026-07-14",
+   "title_th": "EU ประกาศมาตรฐาน Harmonised 6 ฉบับสำหรับ Digital Product Passport",
+   "summary_th": "คณะกรรมาธิการยุโรปออก Implementing Decision (EU) 2026/1736 อ้างอิงมาตรฐาน EN 18216, 18219–18223:2026 สำหรับ DPP ผู้ส่งออกไทยไป EU ต้องเตรียมตัวพาข้อมูล (data carrier) เช่น QR Code บนสินค้า",
+   "title_en": "Commission Implementing Decision (EU) 2026/1736 on harmonised standards for digital product passports",
+   "source_name": "EUR-Lex",
+   "url": "https://eur-lex.europa.eu/eli/dec_impl/2026/1736/oj/eng/pdf",
+   "category": "standards",
+   "vendors": [],
+   "region": "EU"
+  },
+  {
+   "id": "trg-barcode-supply",
+   "date": "2026-07-14",
+   "title_th": "TRG ซื้อ Barcode Supply ผู้ให้บริการบาร์โค้ด RFID และฉลากในสหรัฐฯ",
+   "summary_th": "ผู้ให้บริการ managed endpoint ซื้อตัวแทนจำหน่ายแบบ value-added เพื่อรวมฮาร์ดแวร์ วัสดุสิ้นเปลือง และบริการซ่อมไว้ในที่เดียว ซึ่งเป็นแนวทางที่ตัวแทนจำหน่ายไทยนำไปปรับใช้ได้",
+   "title_en": "TRG Expands Endpoint Lifecycle Capabilities with Acquisition of Barcode Supply",
+   "source_name": "TRG",
+   "url": "https://www.trgsolutions.com/insights-events/news/july-2026/trg-acquires-barcodes-supply",
+   "category": "market",
+   "vendors": [],
+   "region": "United States"
+  },
+  {
+   "id": "std-04",
+   "date": "2026-07-01",
+   "title_th": "Tesco เปลี่ยนมาใช้บาร์โค้ด GS1 2D ทั้งกลุ่มสินค้าในวงกว้าง",
+   "summary_th": "GS1 Denmark รายงานว่า Tesco เปลี่ยนจากบาร์โค้ดแบบเดิมเป็นบาร์โค้ด GS1 2D ทั้งกลุ่มสินค้า เป็นตัวอย่างการใช้งานจริงในระดับใหญ่ที่ใช้อ้างอิงกับลูกค้าค้าปลีกในไทยได้",
+   "title_en": "Tesco leads the way: Large-scale rollout of 2D barcodes",
+   "source_name": "GS1 Denmark",
+   "url": "https://www.gs1.dk/en/about-gs1/news",
+   "category": "standards",
+   "vendors": [],
+   "region": "Global"
+  },
+  {
+   "id": "sea-08",
+   "date": "2026-07-01",
+   "title_th": "Logistics Automation Expo 2026 ที่ BITEC 1–3 ก.ค.",
+   "summary_th": "งานแสดงสินค้า B2B ด้านระบบคลังสินค้าอัตโนมัติ การขนถ่ายวัสดุ และ AIDC จัดที่ EH 101 BITEC กรุงเทพฯ เป็นเวทีพบลูกค้าคลังสินค้าและโลจิสติกส์โดยตรง",
+   "title_en": "Logistics Automation Expo 2026, 1–3 July 2026, BITEC Bangkok",
+   "source_name": "IEAT",
+   "url": "https://ieat.go.th/en/agencies-news/9554",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "sato-store-management-sea",
+   "date": "2026-06-30",
+   "title_th": "SATO เปิดตัว SATO Store Management บริการคลาวด์จัดการวันหมดอายุสินค้าในอาเซียน",
+   "summary_th": "บริการนี้ใช้ AI OCR บนสมาร์ทโฟนบันทึกวันหมดอายุและแจ้งเตือนให้ลดราคาหรือนำสินค้าออก เปิดตัวในเอเชียตะวันออกเฉียงใต้ เกี่ยวข้องกับร้านค้าปลีกและซูเปอร์มาร์เก็ตในไทยโดยตรง",
+   "title_en": "SATO launches SATO Store Management in Southeast Asia to transform expiration date management in retail stores",
+   "source_name": "SATO Asia Pacific",
+   "url": "https://satoasiapacific.com/thailand/news/sato-launches-sato-store-management-in-southeast-asia-to-transform-expiration-date-management-in-retail-stores/",
+   "category": "product",
+   "vendors": [
+    "SATO"
+   ],
+   "region": "Southeast Asia"
+  },
+  {
+   "id": "epson-cw-d3800",
+   "date": "2026-06-30",
+   "title_th": "Epson เปิดตัว ColorWorks CW-D3800 เครื่องพิมพ์ฉลากสีราคาประหยัด",
+   "summary_th": "รุ่นเริ่มต้นใช้หมึก dye สำหรับธุรกิจขนาดเล็ก ร้านขายยา และอีคอมเมิร์ซ มาพร้อมซอฟต์แวร์ออกแบบฉลากใหม่ ช่วยขยายตลาดฉลากสีไปยัง SME",
+   "title_en": "Epson Introduces Affordable ColorWorks Color Label and Badge Printer for Visitor Management and Low-Volume Applications",
+   "source_name": "Epson America",
+   "url": "https://news.epson.com/news/colorworks-d3800-printer-label-boost-software",
+   "category": "product",
+   "vendors": [
+    "Epson"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sea-13",
+   "date": "2026-06-26",
+   "title_th": "CP All จับมือ Huawei ใช้ wearable จ่ายเงินและสะสมแต้มใน 7-Eleven",
+   "summary_th": "CP All ลงนาม MoU กับ Huawei นำโค้ดสมาชิก 7-Eleven และโค้ดชำระเงิน TrueMoney ไปไว้บนอุปกรณ์สวมใส่ ต้องใช้เครื่องสแกนที่หน้าเคาน์เตอร์อ่านโค้ดจากหน้าจอได้",
+   "title_en": "Huawei and CP All Bring Wearable Payments to 7-Eleven Thailand",
+   "source_name": "Fintech News Singapore",
+   "url": "https://fintechnews.sg/133741/thailand/7-eleven-thailand-wearable-payments",
+   "category": "sea",
+   "vendors": [
+    "CP All",
+    "Huawei",
+    "TrueMoney"
+   ],
+   "region": "Thailand"
+  },
+  {
+   "id": "sea-05",
+   "date": "2026-06-25",
+   "title_th": "GS1 Thailand ออกบูธในงาน Thailand Wellness & Healthcare Expo 2026",
+   "summary_th": "GS1 Thailand ให้คำปรึกษาด้านบาร์โค้ดมาตรฐานแก่ผู้ประกอบการสุขภาพในงาน Thailand Wellness & Healthcare Expo 2026 (25–27 มิ.ย. 2569)",
+   "title_en": "GS1 Thailand presents business solutions at Thailand Wellness & Healthcare Expo 2026",
+   "source_name": "GS1 Thailand",
+   "url": "https://gs1th.org/th-wellness-healthcare-expo-2026/",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "datalogic-skorpio-x40",
+   "date": "2026-06-23",
+   "title_th": "Datalogic เปิดตัว mobile computer แบบปุ่มกด Skorpio X40/X45 สำหรับงานคลังสินค้า",
+   "summary_th": "รุ่นใหม่ที่กะทัดรัดและออกแบบให้ใช้ได้ทั้งวัน เหมาะกับลูกค้าคลังสินค้าที่ยังต้องการปุ่มกดจริงแทนจอสัมผัสล้วน",
+   "title_en": "Skorpio X40/45: The Next-Generation Key-Based Mobile Computer Built for All-Day Operations",
+   "source_name": "Datalogic",
+   "url": "https://www.datalogic.com/eng/media-center/press-releases/skorpio-x40-45-the-next-generation-key-based-mobile-computer-built-for-all-day-operations-nd-8813.html",
+   "category": "product",
+   "vendors": [
+    "Datalogic"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sea-04",
+   "date": "2026-06-22",
+   "title_th": "GS1 Thailand จัดโครงการ Next Gen Barcode ให้ผู้ประกอบการกรุงเทพฯ",
+   "summary_th": "สถาบันรหัสสากลจัดโครงการส่งเสริมบาร์โค้ดมาตรฐาน GS1 และเทรนด์ Next Gen Barcodes ให้ผู้ประกอบการ และขยายไปจัดที่ชลบุรี ผู้ประกอบการ SME กลุ่มนี้คือลูกค้าเป้าหมายของเครื่องพิมพ์ฉลากและเครื่องสแกน 2D",
+   "title_en": "GS1 Thailand holds Next Gen Barcode program for Thai businesses in Bangkok",
+   "source_name": "GS1 Thailand",
+   "url": "https://gs1th.org/next-gen-barcode-2026-bkk/",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "sea-17",
+   "date": "2026-06-11",
+   "title_th": "เวียดนามออก Circular 31/2026 บังคับตรวจสอบย้อนกลับสินค้าเสี่ยงสูง",
+   "summary_th": "กระทรวงอุตสาหกรรมและการค้าเวียดนามออก Circular No. 31/2026/TT-BCT กำหนดการตรวจสอบย้อนกลับสินค้า มีผล 1 ก.ค. 2026 ผู้ส่งออกไทยไปเวียดนามอาจต้องติดโค้ดตรวจสอบย้อนกลับ",
+   "title_en": "MOIT issues regulations on product traceability (Circular 31/2026/TT-BCT)",
+   "source_name": "LuatVietnam",
+   "url": "https://luatvietnam.vn/legal-updates/moit-issues-regulations-on-product-traceability-892-109763-article.html",
+   "category": "sea",
+   "vendors": [],
+   "region": "Vietnam"
+  },
+  {
+   "id": "newland-mt95-pro3",
+   "date": "2026-06-08",
+   "title_th": "Newland เปิดตัว mobile computer MT95 Kambur Pro III รองรับ 5G และ Wi-Fi 6",
+   "summary_th": "รุ่นใหม่ที่มาแทน MT95 Kambur Pro II อัปเกรดการเชื่อมต่อเป็น 5G, Wi-Fi 6 และ Bluetooth 5.2",
+   "title_en": "Newland AIDC EMEA Announces the Launch of the MT95 Kambur Pro III",
+   "source_name": "Newland AIDC EMEA",
+   "url": "https://www.newland-id.com/en/news/newland-aidc-emea-announces-the-launch-of-the-mt95-kambur-pro-iii/",
+   "category": "product",
+   "vendors": [
+    "Newland"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "newland-nvh220-ai",
+   "date": "2026-05-13",
+   "title_th": "Newland เปิดตัว NVH220 Lophius AI สแกนเนอร์อุตสาหกรรมที่ใช้ AI ตรวจจับบาร์โค้ด",
+   "summary_th": "สแกนเนอร์มือถือสำหรับอ่านรหัส DPM ใช้ AI ช่วยตรวจจับบาร์โค้ด และทนการตกได้ 1.8 เมตร เป็นตัวเลือกราคาคุ้มค่าสำหรับโรงงาน",
+   "title_en": "Newland AIDC EMEA Announces the Launch of the NVH220 Lophius AI Series",
+   "source_name": "Newland AIDC EMEA",
+   "url": "https://www.newland-id.com/en/news/newland-aidc-emea-announces-the-launch-of-the-nvh220-lophius-ai-series/",
+   "category": "product",
+   "vendors": [
+    "Newland"
+   ],
+   "region": "Global"
+  },
+  {
+   "id": "sea-22",
+   "date": "2026-05-07",
+   "title_th": "เชื่อม QRIS อินโดนีเซียกับระบบจ่ายเงินจีน ครอบคลุมร้านค้า 40 ล้านราย",
+   "summary_th": "Bank Indonesia และ People's Bank of China เปิดเชื่อม QR ข้ามแดนระหว่าง QRIS กับระบบชำระเงินจีน ให้นักท่องเที่ยวจีนจ่ายเงินที่ร้านค้าอินโดนีเซียได้",
+   "title_en": "China-Indonesia QR payment link connects 40 million merchants to Chinese travellers",
+   "source_name": "The Asian Banker",
+   "url": "https://www.theasianbanker.com/press-releases/china-indonesia-qr-payment-link-connects-40-million-merchants-to-chinese-travellers",
+   "category": "sea",
+   "vendors": [],
+   "region": "Indonesia"
+  },
+  {
+   "id": "toshiba-bx820t",
+   "date": "2026-05-07",
+   "title_th": "Toshiba เปิดตัวเครื่องพิมพ์อุตสาหกรรม BX820T หน้ากว้าง 8 นิ้ว ครบซีรีส์ BX",
+   "summary_th": "BX820T เพิ่มขนาดหน้ากว้าง 8 นิ้วต่อจากรุ่น 4 และ 6 นิ้ว สำหรับงานฉลากขนาดใหญ่และงานปริมาณมาก",
+   "title_en": "Toshiba Announces the Release of the BX820T, Completing Its BX Next-Generation Industrial Printer Series",
+   "source_name": "Toshiba Tec UK",
+   "url": "https://www.toshibatec.co.uk/",
+   "category": "product",
+   "vendors": [
+    "Toshiba Tec"
+   ],
+   "region": "United Kingdom"
+  },
+  {
+   "id": "std-13",
+   "date": "2026-04-23",
+   "title_th": "CMS สหรัฐฯ เสนอกฎวัดผลการใช้ UDI ในโรงพยาบาล",
+   "summary_th": "Centers for Medicare & Medicaid Services เสนอกฎสร้างตัวชี้วัด Unique Device Identifier (UDI) ในโครงการ Promoting Interoperability ผลักดันการสแกน UDI บนเครื่องมือแพทย์ในโรงพยาบาล",
+   "title_en": "FDA: Benefits of a UDI System (April 23, 2026 update on CMS proposed UDI measure)",
+   "source_name": "U.S. FDA",
+   "url": "https://www.fda.gov/medical-devices/unique-device-identification-system-udi-system/benefits-udi-system",
+   "category": "standards",
+   "vendors": [],
+   "region": "USA"
+  },
+  {
+   "id": "sea-19",
+   "date": "2026-04-23",
+   "title_th": "Newland AIDC โชว์โซลูชัน Auto-ID อุตสาหกรรมที่งาน VIMF เวียดนาม",
+   "summary_th": "Newland AIDC ร่วมงาน Vietnam Industrial & Manufacturing Fair 2026 (15–17 เม.ย.) แสดงว่าแบรนด์จีนกำลังรุกตลาดเครื่องอ่านโค้ดอุตสาหกรรมในอาเซียน",
+   "title_en": "Newland AIDC at VIMF Vietnam 2026",
+   "source_name": "Newland AIDC",
+   "url": "https://www.newlandaidc.com/roa/News/info/443.html",
+   "category": "sea",
+   "vendors": [
+    "Newland"
+   ],
+   "region": "Vietnam"
+  },
+  {
+   "id": "sea-03",
+   "date": "2026-03-23",
+   "title_th": "GS1 Thailand เปิดตัว Smart Catalog แพลตฟอร์มข้อมูลสินค้า",
+   "summary_th": "GS1 Thailand เปิดตัว GS1TH Smart Catalog ศูนย์กลางข้อมูลสินค้าที่จดทะเบียนบาร์โค้ด เพื่อยกระดับมาตรฐานข้อมูลสินค้าไทยสู่สากล",
+   "title_en": "GS1 Thailand launches \"Smart Catalog\" product data platform",
+   "source_name": "GS1 Thailand",
+   "url": "https://gs1th.org/gs1th-smart-catalog-news/",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "sea-12",
+   "date": "2026-03-19",
+   "title_th": "ไปรษณีย์ไทยจับมือ Data Wow และ QTFT นำ AI มาใช้ในงานโลจิสติกส์",
+   "summary_th": "ไปรษณีย์ไทยร่วมมือกับ Data Wow และ QTFT นำ AI และเทคโนโลยีขั้นสูงมาเพิ่มประสิทธิภาพบริการไปรษณีย์และโลจิสติกส์ทั่วประเทศ",
+   "title_en": "Thailand Post Partners with Data Wow and QTFT to Drive AI and Advanced Technology Integration",
+   "source_name": "QTFT",
+   "url": "https://www.qtft.org/news/9659c126-c505-43ff-a931-6fd008c77247",
+   "category": "sea",
+   "vendors": [
+    "Thailand Post",
+    "Data Wow",
+    "QTFT"
+   ],
+   "region": "Thailand"
+  },
+  {
+   "id": "sea-09",
+   "date": "2026-03-11",
+   "title_th": "Intelligent Asia Thailand 2026 งานระบบอัตโนมัติและ PCB ที่ BITEC",
+   "summary_th": "งาน Intelligent Asia Thailand 2026 จัด 11–13 มี.ค. 2026 ที่ BITEC เน้นการผลิต PCB และระบบอัตโนมัติ ตามการลงทุนอิเล็กทรอนิกส์ในไทย โรงงานกลุ่มนี้ต้องการการตรวจสอบย้อนกลับด้วยเครื่องอ่านโค้ดอุตสาหกรรม",
+   "title_en": "Intelligent Asia Thailand 2026, 11–13 March 2026, BITEC",
+   "source_name": "BITEC",
+   "url": "https://www.bitec.co.th/event/intelligent-asia-thailand-2026",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "sea-06",
+   "date": "2026-02-11",
+   "title_th": "อย. เดินหน้าระบบ Track & Trace และ e-labeling ยาเสพติดให้โทษทางการแพทย์",
+   "summary_th": "อย. เริ่มพัฒนาระบบติดตามย้อนกลับและฉลากอิเล็กทรอนิกส์สำหรับยาเสพติดให้โทษและวัตถุออกฤทธิ์ทางการแพทย์ ผู้ผลิต ผู้นำเข้า และโรงพยาบาลจะต้องการระบบพิมพ์และสแกนโค้ด 2D",
+   "title_en": "Thai FDA advances oversight of medical narcotic drugs and psychotropic substances with track-and-trace and e-labeling",
+   "source_name": "Thai FDA",
+   "url": "https://en.fda.moph.go.th/news/thai-fda-advances-oversight-of-medical-narcotic-drugs-and-psychotropic-substances-in-thailand",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  },
+  {
+   "id": "sea-10",
+   "date": "2026-01-29",
+   "title_th": "KEX ประกาศกลยุทธ์ 2026 เป็น Logistics Solution Provider ขับเคลื่อนด้วยเทคโนโลยี",
+   "summary_th": "KEX Express วางตัวเป็นบริษัท Logistics Tech และเชื่อมเครือข่าย SF Express ทั่วโลก การขยายบริการเพิ่มความต้องการเครื่องสแกนพัสดุและเครื่องพิมพ์ฉลากแบบพกพา",
+   "title_en": "KEX Ignites 2026 with Tech-Powered Transformation",
+   "source_name": "KEX Express",
+   "url": "https://th.kex-express.com/en/news/355346/kex-ignites-2026-with-tech%E2%80%91powered-transformation-advancing-as-thailands-leading-logistics-solution-provider-and-setting-new-global-delivery-standards",
+   "category": "sea",
+   "vendors": [
+    "KEX",
+    "SF Express"
+   ],
+   "region": "Thailand"
+  },
+  {
+   "id": "sea-18",
+   "date": "2026-01-23",
+   "title_th": "เวียดนามออกกฤษฎีกา 37/2026 กำหนด Digital Passport สินค้าพร้อม GTIN",
+   "summary_th": "Decree 37/2026/ND-CP กำหนดข้อมูลขั้นต่ำของหนังสือเดินทางดิจิทัลสินค้า รวมถึง GTIN และรหัสเฉพาะรายชิ้น ที่เชื่อมกับพอร์ทัลตรวจสอบย้อนกลับแห่งชาติ",
+   "title_en": "Vietnam: Implementing digital passports for products and goods (Decree 37/2026/ND-CP)",
+   "source_name": "Vietnam.vn",
+   "url": "https://www.vietnam.vn/en/trien-khai-ho-chieu-so-cho-san-pham-hang-hoa",
+   "category": "sea",
+   "vendors": [],
+   "region": "Vietnam"
+  },
+  {
+   "id": "sea-07",
+   "date": "2026-01-22",
+   "title_th": "ประกาศฉลากเครื่องมือแพทย์ฉบับใหม่ (พ.ศ. 2568) มีผล 20 มิ.ย. 2026",
+   "summary_th": "กระทรวงสาธารณสุขออกประกาศหลักเกณฑ์ฉลากและคู่มือการใช้เครื่องมือแพทย์ฉบับใหม่ ลงวันที่ 22 ธ.ค. 2568 มีผล 20 มิ.ย. 2569 แทนฉบับปี 2563 ผู้นำเข้าเครื่องมือแพทย์อาจต้องปรับระบบพิมพ์ฉลาก",
+   "title_en": "Thai FDA Finalizes New Medical Device Labeling Rules",
+   "source_name": "Asia Actual",
+   "url": "https://asiaactual.com/blog/thai-fda-finalizes-medical-device-labeling-rules-2026/",
+   "category": "sea",
+   "vendors": [],
+   "region": "Thailand"
+  }
+ ],
+ "vendors": [
+  {
+   "name": "Zebra Technologies",
+   "hq_country": "United States",
+   "segments": [
+    "mobile computers",
+    "scanners",
+    "label printers",
+    "RFID",
+    "machine vision",
+    "kiosks"
+   ],
+   "ticker": "ZBRA",
+   "latest_move_th": "ยอดขาย Q3/2026 โต 22.3% แตะ 1,614 ล้านดอลลาร์ และขึ้นราคา mobile computer ราว 15% เพื่อรับต้นทุนหน่วยความจำ",
+   "latest_date": "2026-11-03",
+   "url": "https://investors.zebra.com/news-and-events/news/news-details/2026/Zebra-Technologies-Announces-Third-Quarter-2026-Results/default.aspx",
+   "website": "https://www.zebra.com"
+  },
+  {
+   "name": "Honeywell (PSS → Brady)",
+   "hq_country": "United States",
+   "segments": [
+    "mobile computers",
+    "scanners",
+    "label printers",
+    "RFID"
+   ],
+   "ticker": "BRC",
+   "latest_move_th": "Honeywell ขายธุรกิจ PSS (สแกนเนอร์ mobile computer เครื่องพิมพ์) ให้ Brady Corporation มูลค่า 1.4 พันล้านดอลลาร์ ปิดดีลเมื่อ 3 ส.ค. 2026 ตอนนี้ผลิตภัณฑ์กลุ่มนี้อยู่ภายใต้ Brady",
+   "latest_date": "2026-08-03",
+   "url": "https://www.honeywell.com/us/en/news/press-releases/2026/08/honeywell-technologies-completes-sale-of-productivity-solutions-and-services-business-to-brady-corporation",
+   "website": "https://www.bradyid.com/ips"
+  },
+  {
+   "name": "Datalogic",
+   "hq_country": "Italy",
+   "segments": [
+    "scanners",
+    "mobile computers",
+    "machine vision",
+    "laser marking",
+    "safety sensors"
+   ],
+   "ticker": null,
+   "latest_move_th": "เปิดตัว Smart Vision Suite for Logistics (18 พ.ย. 2026) หลังถูกถอนหุ้นออกจากตลาดเมื่อ 9 ก.ย. 2026 จาก tender offer ของ Hydra",
+   "latest_date": "2026-11-18",
+   "url": "https://www.datalogic.com/eng/media-center/press-releases/datalogic-expands-its-software-solutions-portfolio-with-smart-vision-suite-for-logistics-nd-8872.html",
+   "website": "https://www.datalogic.com"
+  },
+  {
+   "name": "Cognex",
+   "hq_country": "United States",
+   "segments": [
+    "machine vision",
+    "barcode readers",
+    "3D vision"
+   ],
+   "ticker": "CGNX",
+   "latest_move_th": "ทำรายได้ Q3/2026 สูงสุดเป็นประวัติการณ์ 313 ล้านดอลลาร์ และกำลังซื้อ RealSense มูลค่า 500 ล้านดอลลาร์",
+   "latest_date": "2026-11-04",
+   "url": "https://www.prnewswire.com/news-releases/cognex-reports-third-quarter-2026-results-302929644.html",
+   "website": "https://www.cognex.com"
+  },
+  {
+   "name": "SATO",
+   "hq_country": "Japan",
+   "segments": [
+    "label printers",
+    "RFID",
+    "labels & consumables",
+    "software"
+   ],
+   "ticker": "6287.T",
+   "latest_move_th": "ปรับเป้ารายได้และกำไรทั้งปีงบ 2026 ขึ้น คาดกำไรจากการดำเนินงานทำสถิติใหม่",
+   "latest_date": "2026-11-13",
+   "url": "https://www.sato-global.com/content/dam/sato/corporate/content/global/us-en/ir/library/settlement/2027/fy2026_2q_b.pdf.coredownload.inline.pdf",
+   "website": "https://www.sato-global.com"
+  },
+  {
+   "name": "TSC Auto ID (incl. Printronix, Bluebird)",
+   "hq_country": "Taiwan",
+   "segments": [
+    "label printers",
+    "line matrix printers",
+    "mobile computers",
+    "RFID"
+   ],
+   "ticker": null,
+   "latest_move_th": "เปิดตัว mobile computer X40 น้ำหนัก 199 กรัม รวม RFID (Impinj Gen2X) สแกนบาร์โค้ด และ NFC ได้รางวัล Red Dot 2026",
+   "latest_date": "2026-11-19",
+   "url": "https://usca.tscprinters.com/en/press-releases/tsc-x40-one-compact-device-every-frontline-task-perfect-fusion-design-performance",
+   "website": "https://www.tscprinters.com"
+  },
+  {
+   "name": "Toshiba Tec",
+   "hq_country": "Japan",
+   "segments": [
+    "label printers",
+    "POS",
+    "RFID"
+   ],
+   "ticker": "6588.T",
+   "latest_move_th": "ผลครึ่งปีแรกพลิกเป็นกำไร รายได้ทำสถิติใหม่ 301.99 พันล้านเยน จากยอดขาย POS ต่างประเทศ",
+   "latest_date": "2026-11-11",
+   "url": "https://www.wirthconsulting.org/toshiba-tec-sees-much-improved-financial-results-reverses-losses/",
+   "website": "https://www.toshibatec.com"
+  },
+  {
+   "name": "GoDEX",
+   "hq_country": "Taiwan",
+   "segments": [
+    "label printers"
+   ],
+   "ticker": null,
+   "latest_move_th": "ไม่พบข่าวบริษัทที่ตรวจสอบได้ในช่วงนี้ เว็บไซต์มีเพียงหน้ารุ่นสินค้าตระกูล i+ เช่น RT730i+ และ ZX430i+",
+   "latest_date": null,
+   "url": "https://mygodex.com/en/products/",
+   "website": "https://www.godexintl.com"
+  },
+  {
+   "name": "Citizen Systems",
+   "hq_country": "Japan",
+   "segments": [
+    "label printers",
+    "POS printers",
+    "mobile printers"
+   ],
+   "ticker": null,
+   "latest_move_th": "วางจำหน่าย CL-S403DTII เครื่องพิมพ์ฉลาก 300 dpi ขนาดกะทัดรัดพร้อมระบบโหลดกระดาษอัตโนมัติ",
+   "latest_date": "2026-11-02",
+   "url": "https://www.citizen-systems.co.jp/en/printer/topics/",
+   "website": "https://www.citizen-systems.com"
+  },
+  {
+   "name": "Newland AIDC",
+   "hq_country": "China",
+   "segments": [
+    "scanners",
+    "mobile computers",
+    "scan engines",
+    "kiosks",
+    "RFID"
+   ],
+   "ticker": null,
+   "latest_move_th": "เปิดตัว mobile computer MT95 Kambur Pro III รองรับ 5G (มิ.ย. 2026) และสแกนเนอร์ NVH220 Lophius AI (พ.ค. 2026)",
+   "latest_date": "2026-06-08",
+   "url": "https://www.newland-id.com/en/news/newland-aidc-emea-announces-the-launch-of-the-mt95-kambur-pro-iii/",
+   "website": "https://www.newlandaidc.com"
+  },
+  {
+   "name": "UROVO",
+   "hq_country": "China",
+   "segments": [
+    "mobile computers",
+    "POS terminals",
+    "scanners",
+    "RFID"
+   ],
+   "ticker": null,
+   "latest_move_th": "เปิดตัว SP35 Personal Shopper และเครื่องเช็กราคา U100 สำหรับ self-service ในร้านค้าปลีก",
+   "latest_date": "2026-09-10",
+   "url": "https://en.urovo.com/News/info/SP35andU100.html",
+   "website": "https://en.urovo.com"
+  },
+  {
+   "name": "Unitech",
+   "hq_country": "Taiwan",
+   "segments": [
+    "mobile computers",
+    "scanners",
+    "rugged tablets",
+    "RFID"
+   ],
+   "ticker": null,
+   "latest_move_th": "เปิดตัวแท็บเล็ต rugged TB170 Plus ระบบ Windows 11 รองรับ Wi-Fi 6E",
+   "latest_date": "2026-11-11",
+   "url": "https://www.ute.com/apac/news/articles",
+   "website": "https://www.ute.com"
+  },
+  {
+   "name": "POSTEK",
+   "hq_country": "China",
+   "segments": [
+    "label printers",
+    "RFID printers",
+    "print engines"
+   ],
+   "ticker": null,
+   "latest_move_th": "ไม่พบข่าวที่มีวันที่ชัดเจนในช่วงนี้ ไลน์อัปปัจจุบันเน้นเครื่องพิมพ์ RFID แบบ dual-antenna และ OX Script",
+   "latest_date": null,
+   "url": "https://veritronics.com/postek/",
+   "website": "https://www.postekchina.com"
+  },
+  {
+   "name": "Epson (ColorWorks)",
+   "hq_country": "Japan",
+   "segments": [
+    "color label printers",
+    "POS printers",
+    "label makers"
+   ],
+   "ticker": "6724.T",
+   "latest_move_th": "โชว์ ColorWorks ทำงานร่วมกับหุ่นยนต์และระบบ vision ที่ PACK EXPO ขณะที่ผลครึ่งปีแรกระบุว่ายอดขายเครื่องพิมพ์ฉลากแข็งแรง",
+   "latest_date": "2026-11-05",
+   "url": "https://corporate.epson/en/investors/publications/financial-reports/2026/pdf/2026_2q_presentation_wn_eng.pdf",
+   "website": "https://www.epson.com"
+  },
+  {
+   "name": "Brother",
+   "hq_country": "Japan",
+   "segments": [
+    "mobile printers",
+    "label printers"
+   ],
+   "ticker": "6448.T",
+   "latest_move_th": "เปิดตัวเครื่องพิมพ์ฉลากพกพา RJ Series ใหม่ 4 รุ่น (RJ-4255WB ฯลฯ) มาตรฐาน IP54 รองรับ WPA3",
+   "latest_date": "2026-09-03",
+   "url": "https://www.brother.co.jp/news/2026/rjseries/index.aspx",
+   "website": "https://www.brother.com"
+  },
+  {
+   "name": "Avery Dennison",
+   "hq_country": "United States",
+   "segments": [
+    "RFID inlays",
+    "labels & materials",
+    "BLE labels"
+   ],
+   "ticker": "AVY",
+   "latest_move_th": "ยอดขาย Q3/2026 โต 5.2% แตะ 2.3 พันล้านดอลลาร์ หลังเปิดตัวฉลาก BLE ตระกูล AD Visi",
+   "latest_date": "2026-10-29",
+   "url": "http://www.sec.gov/Archives/edgar/data/8818/000000881826000162/ex9918k10-29x26.htm",
+   "website": "https://rfid.averydennison.com"
+  },
+  {
+   "name": "Impinj",
+   "hq_country": "United States",
+   "segments": [
+    "RFID chips",
+    "RFID readers"
+   ],
+   "ticker": "PI",
+   "latest_move_th": "รายได้ Q3/2026 ทำสถิติใหม่ 112.1 ล้านดอลลาร์ จากชิป M800 และ Gen2X",
+   "latest_date": "2026-10-28",
+   "url": "https://investor.impinj.com/news/press-release/2026/Impinj-Reports-Third-Quarter-2026-Financial-Results/default.aspx",
+   "website": "https://www.impinj.com"
+  }
+ ],
+ "market": [
+  {
+   "segment_th": "เครื่องสแกนบาร์โค้ด",
+   "segment_en": "Barcode scanners",
+   "scope": "Global",
+   "base_year": 2025,
+   "base_value_usd_bn": 7.8,
+   "forecast_year": 2034,
+   "forecast_value_usd_bn": 13.3,
+   "cagr_pct": 5.89,
+   "publisher": "Research and Markets",
+   "url": "https://www.researchandmarkets.com/report/barcode-scanner",
+   "published": "2026"
+  },
+  {
+   "segment_th": "เครื่องอ่านบาร์โค้ดแบบติดตั้งอุตสาหกรรม",
+   "segment_en": "Industrial fixed-mount barcode readers",
+   "scope": "Global",
+   "base_year": 2025,
+   "base_value_usd_bn": 2.05,
+   "forecast_year": 2031,
+   "forecast_value_usd_bn": 3.37,
+   "cagr_pct": 8.9,
+   "publisher": "Mordor Intelligence",
+   "url": "https://www.mordorintelligence.com/industry-reports/industrial-fixed-mount-barcode-reader-market",
+   "published": "2026"
+  },
+  {
+   "segment_th": "เครื่องอ่านบาร์โค้ด 2D",
+   "segment_en": "2D barcode readers",
+   "scope": "Global",
+   "base_year": null,
+   "base_value_usd_bn": null,
+   "forecast_year": 2030,
+   "forecast_value_usd_bn": 13.6,
+   "cagr_pct": 9.4,
+   "publisher": "Grand View Research",
+   "url": "https://www.grandviewresearch.com/press-release/global-2d-barcode-reader-market",
+   "published": "2025"
+  },
+  {
+   "segment_th": "เครื่องพิมพ์บาร์โค้ด",
+   "segment_en": "Barcode printers",
+   "scope": "Global",
+   "base_year": 2025,
+   "base_value_usd_bn": 5.1,
+   "forecast_year": 2033,
+   "forecast_value_usd_bn": 10.2,
+   "cagr_pct": 9.4,
+   "publisher": "Grand View Research",
+   "url": "https://www.grandviewresearch.com/industry-analysis/barcode-printers-market",
+   "published": "2026-05"
+  },
+  {
+   "segment_th": "เครื่องพิมพ์บาร์โค้ด",
+   "segment_en": "Barcode printers",
+   "scope": "Global",
+   "base_year": 2025,
+   "base_value_usd_bn": 4.71,
+   "forecast_year": 2031,
+   "forecast_value_usd_bn": 5.98,
+   "cagr_pct": 4.05,
+   "publisher": "Mordor Intelligence",
+   "url": "https://www.mordorintelligence.com/industry-reports/barcode-printer-market",
+   "published": "2026"
+  },
+  {
+   "segment_th": "AIDC (ระบบระบุอัตโนมัติและเก็บข้อมูล) โดยรวม",
+   "segment_en": "Automatic identification and data capture (AIDC)",
+   "scope": "Global",
+   "base_year": 2024,
+   "base_value_usd_bn": 69.8,
+   "forecast_year": 2030,
+   "forecast_value_usd_bn": 136.9,
+   "cagr_pct": 11.7,
+   "publisher": "Grand View Research",
+   "url": "https://www.grandviewresearch.com/industry-analysis/automatic-identification-data-capture-market-report",
+   "published": "2025"
+  },
+  {
+   "segment_th": "AIDC (ระบบระบุอัตโนมัติและเก็บข้อมูล) โดยรวม",
+   "segment_en": "Automatic identification and data capture (AIDC)",
+   "scope": "Global",
+   "base_year": 2026,
+   "base_value_usd_bn": 88.12,
+   "forecast_year": 2031,
+   "forecast_value_usd_bn": 142.3,
+   "cagr_pct": 10.06,
+   "publisher": "Mordor Intelligence",
+   "url": "https://www.mordorintelligence.com/industry-reports/automatic-identification-and-data-capture-market",
+   "published": "2026"
+  },
+  {
+   "segment_th": "RFID",
+   "segment_en": "RFID",
+   "scope": "Global",
+   "base_year": 2025,
+   "base_value_usd_bn": 14.58,
+   "forecast_year": 2034,
+   "forecast_value_usd_bn": 30.47,
+   "cagr_pct": 8.5,
+   "publisher": "MarketsandMarkets",
+   "url": "https://www.marketsandmarkets.com/Market-Reports/rfid-market-446.html",
+   "published": "2026-01"
+  },
+  {
+   "segment_th": "RFID",
+   "segment_en": "RFID",
+   "scope": "APAC",
+   "base_year": 2025,
+   "base_value_usd_bn": 4.4853,
+   "forecast_year": 2030,
+   "forecast_value_usd_bn": 11.0427,
+   "cagr_pct": 10.5,
+   "publisher": "MarketsandMarkets",
+   "url": "https://www.marketsandmarkets.com/Market-Reports/geography/rfid-market/Asia-Pacific",
+   "published": "2026"
+  },
+  {
+   "segment_th": "RFID",
+   "segment_en": "RFID",
+   "scope": "Global",
+   "base_year": 2025,
+   "base_value_usd_bn": 15.6,
+   "forecast_year": 2036,
+   "forecast_value_usd_bn": 23.0,
+   "cagr_pct": null,
+   "publisher": "IDTechEx",
+   "url": "https://www.idtechex.com/en/research-article/rfid-market-set-to-reach-us-23-billion-by-2036/33618",
+   "published": "2025-08"
+  },
+  {
+   "segment_th": "RFID",
+   "segment_en": "RFID",
+   "scope": "Global",
+   "base_year": 2026,
+   "base_value_usd_bn": 18.66,
+   "forecast_year": 2031,
+   "forecast_value_usd_bn": 32.19,
+   "cagr_pct": 11.52,
+   "publisher": "Mordor Intelligence",
+   "url": "https://www.mordorintelligence.com/industry-reports/global-rfid-market",
+   "published": "2026"
+  },
+  {
+   "segment_th": "โมบายคอมพิวเตอร์",
+   "segment_en": "Mobile computers",
+   "scope": "Global",
+   "base_year": 2024,
+   "base_value_usd_bn": 6.6,
+   "forecast_year": 2030,
+   "forecast_value_usd_bn": 9.8,
+   "cagr_pct": 6.0,
+   "publisher": "Grand View Research",
+   "url": "https://www.grandviewresearch.com/industry-analysis/mobile-computer-market-report",
+   "published": "2025"
+  },
+  {
+   "segment_th": "โมบายคอมพิวเตอร์แบบทนทาน (Rugged)",
+   "segment_en": "Rugged mobile computers",
+   "scope": "Global",
+   "base_year": 2025,
+   "base_value_usd_bn": 9.8,
+   "forecast_year": 2032,
+   "forecast_value_usd_bn": 11.9,
+   "cagr_pct": 2.8,
+   "publisher": "Research and Markets (Global Strategic Business Report)",
+   "url": "https://www.researchandmarkets.com/reports/5301941/rugged-mobile-computers-global-strategic",
+   "published": "2026"
+  }
+ ]
+}

@@ -1,0 +1,919 @@
+{
+ "generated": "2026-11-23",
+ "vendors_geo": {
+  "Zebra Technologies": [
+   "Lincolnshire, IL, USA",
+   42.19,
+   -87.91
+  ],
+  "Honeywell (PSS → Brady)": [
+   "Charlotte, NC, USA",
+   35.23,
+   -80.84
+  ],
+  "Datalogic": [
+   "Bologna, Italy",
+   44.49,
+   11.34
+  ],
+  "Cognex": [
+   "Natick, MA, USA",
+   42.28,
+   -71.35
+  ],
+  "SATO": [
+   "Tokyo, Japan",
+   35.63,
+   139.7
+  ],
+  "TSC Auto ID (incl. Printronix, Bluebird)": [
+   "New Taipei, Taiwan",
+   25.01,
+   121.46
+  ],
+  "Toshiba Tec": [
+   "Tokyo, Japan",
+   35.62,
+   139.73
+  ],
+  "GoDEX": [
+   "New Taipei, Taiwan",
+   24.99,
+   121.45
+  ],
+  "Citizen Systems": [
+   "Nishitokyo, Japan",
+   35.73,
+   139.54
+  ],
+  "Newland AIDC": [
+   "Fuzhou, China",
+   26.07,
+   119.3
+  ],
+  "UROVO": [
+   "Shenzhen, China",
+   22.54,
+   114.06
+  ],
+  "Unitech": [
+   "New Taipei, Taiwan",
+   25.06,
+   121.46
+  ],
+  "POSTEK": [
+   "Shenzhen, China",
+   22.55,
+   113.95
+  ],
+  "Epson (ColorWorks)": [
+   "Suwa, Nagano, Japan",
+   36.04,
+   138.11
+  ],
+  "Brother": [
+   "Nagoya, Japan",
+   35.18,
+   136.91
+  ],
+  "Avery Dennison": [
+   "Mentor, OH, USA",
+   41.67,
+   -81.34
+  ],
+  "Impinj": [
+   "Seattle, WA, USA",
+   47.61,
+   -122.33
+  ]
+ },
+ "regions": {
+  "Thailand": [
+   13.75,
+   100.5
+  ],
+  "Japan": [
+   35.68,
+   139.69
+  ],
+  "United States": [
+   38.9,
+   -77.04
+  ],
+  "USA": [
+   38.9,
+   -77.04
+  ],
+  "Singapore": [
+   1.29,
+   103.85
+  ],
+  "Vietnam": [
+   21.03,
+   105.85
+  ],
+  "United Kingdom": [
+   51.51,
+   -0.13
+  ],
+  "Germany": [
+   52.52,
+   13.4
+  ],
+  "Italy": [
+   41.9,
+   12.5
+  ],
+  "EU": [
+   50.85,
+   4.35
+  ],
+  "Malaysia": [
+   3.14,
+   101.69
+  ],
+  "Israel": [
+   31.77,
+   35.21
+  ],
+  "Taiwan": [
+   25.03,
+   121.57
+  ],
+  "Indonesia": [
+   -6.21,
+   106.85
+  ]
+ },
+ "acs": {
+  "hq": {
+   "name": "Asian Coding Systems · กรุงเทพฯ",
+   "lat": 13.749,
+   "lon": 100.578
+  },
+  "targets": [
+   {
+    "name": "ACCOUNT LOG-01",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.589,
+    "lon": 100.688,
+    "conf": "low",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT LOG-02",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 14.214,
+    "lon": 100.607,
+    "conf": "medium",
+    "area": "พระนครศรีอยุธยา"
+   },
+   {
+    "name": "ACCOUNT LOG-03",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.634,
+    "lon": 100.78,
+    "conf": "medium",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT LOG-04",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.08,
+    "lon": 100.918,
+    "conf": "medium",
+    "area": "ชลบุรี"
+   },
+   {
+    "name": "ACCOUNT LOG-05",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.541,
+    "lon": 100.938,
+    "conf": "medium",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT LOG-06",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.569,
+    "lon": 100.906,
+    "conf": "medium",
+    "area": "ฉะเชิงเทรา"
+   },
+   {
+    "name": "ACCOUNT LOG-07",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.738,
+    "lon": 99.883,
+    "conf": "low",
+    "area": "ราชบุรี"
+   },
+   {
+    "name": "ACCOUNT LOG-08",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.634,
+    "lon": 100.801,
+    "conf": "low",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT LOG-09",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.655,
+    "lon": 100.759,
+    "conf": "low",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT LOG-10",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.955,
+    "lon": 99.818,
+    "conf": "low",
+    "area": "กาญจนบุรี"
+   },
+   {
+    "name": "ACCOUNT LOG-11",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 14.155,
+    "lon": 100.619,
+    "conf": "medium",
+    "area": "พระนครศรีอยุธยา"
+   },
+   {
+    "name": "ACCOUNT LOG-12",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.603,
+    "lon": 100.831,
+    "conf": "low",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT LOG-13",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 14.241,
+    "lon": 100.592,
+    "conf": "low",
+    "area": "พระนครศรีอยุธยา"
+   },
+   {
+    "name": "ACCOUNT LOG-14",
+    "industry": "คลังสินค้าและโลจิสติกส์",
+    "lat": 13.563,
+    "lon": 100.705,
+    "conf": "medium",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT FNB-01",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 14.108,
+    "lon": 100.551,
+    "conf": "medium",
+    "area": "ปทุมธานี"
+   },
+   {
+    "name": "ACCOUNT FNB-02",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 12.974,
+    "lon": 101.098,
+    "conf": "high",
+    "area": "ระยอง"
+   },
+   {
+    "name": "ACCOUNT FNB-03",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 14.401,
+    "lon": 100.879,
+    "conf": "high",
+    "area": "สระบุรี"
+   },
+   {
+    "name": "ACCOUNT FNB-04",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 12.98,
+    "lon": 101.111,
+    "conf": "high",
+    "area": "ระยอง"
+   },
+   {
+    "name": "ACCOUNT FNB-05",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 14.645,
+    "lon": 100.874,
+    "conf": "medium",
+    "area": "สระบุรี"
+   },
+   {
+    "name": "ACCOUNT FNB-06",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 13.202,
+    "lon": 101.338,
+    "conf": "medium",
+    "area": "ชลบุรี"
+   },
+   {
+    "name": "ACCOUNT FNB-07",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 13.035,
+    "lon": 101.048,
+    "conf": "low",
+    "area": "ชลบุรี"
+   },
+   {
+    "name": "ACCOUNT FNB-08",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 14.795,
+    "lon": 100.912,
+    "conf": "low",
+    "area": "ลพบุรี"
+   },
+   {
+    "name": "ACCOUNT FNB-09",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 14.364,
+    "lon": 100.84,
+    "conf": "low",
+    "area": "สระบุรี"
+   },
+   {
+    "name": "ACCOUNT FNB-10",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 14.598,
+    "lon": 100.956,
+    "conf": "high",
+    "area": "สระบุรี"
+   },
+   {
+    "name": "ACCOUNT FNB-11",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 14.226,
+    "lon": 100.66,
+    "conf": "low",
+    "area": "พระนครศรีอยุธยา"
+   },
+   {
+    "name": "ACCOUNT FNB-12",
+    "industry": "โรงงานอาหารและเครื่องดื่ม",
+    "lat": 14.384,
+    "lon": 100.929,
+    "conf": "medium",
+    "area": "สระบุรี"
+   },
+   {
+    "name": "ACCOUNT MFG-01",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 13.975,
+    "lon": 101.713,
+    "conf": "medium",
+    "area": "ปราจีนบุรี"
+   },
+   {
+    "name": "ACCOUNT MFG-02",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 18.564,
+    "lon": 99.044,
+    "conf": "high",
+    "area": "ลำพูน"
+   },
+   {
+    "name": "ACCOUNT MFG-03",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 12.849,
+    "lon": 101.282,
+    "conf": "medium",
+    "area": "ระยอง"
+   },
+   {
+    "name": "ACCOUNT MFG-04",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 13.653,
+    "lon": 100.457,
+    "conf": "low",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MFG-05",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 13.698,
+    "lon": 100.587,
+    "conf": "medium",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MFG-06",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 13.601,
+    "lon": 100.607,
+    "conf": "high",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT MFG-07",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 13.521,
+    "lon": 100.702,
+    "conf": "high",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT MFG-08",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 14.03,
+    "lon": 100.595,
+    "conf": "high",
+    "area": "ปทุมธานี"
+   },
+   {
+    "name": "ACCOUNT MFG-09",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 13.315,
+    "lon": 101.253,
+    "conf": "medium",
+    "area": "ชลบุรี"
+   },
+   {
+    "name": "ACCOUNT MFG-10",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 12.847,
+    "lon": 101.154,
+    "conf": "medium",
+    "area": "ระยอง"
+   },
+   {
+    "name": "ACCOUNT MFG-11",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 12.945,
+    "lon": 101.302,
+    "conf": "medium",
+    "area": "ระยอง"
+   },
+   {
+    "name": "ACCOUNT MFG-12",
+    "industry": "โรงงานผลิต อิเล็กทรอนิกส์ ยา และยานยนต์",
+    "lat": 12.979,
+    "lon": 101.151,
+    "conf": "medium",
+    "area": "ระยอง"
+   },
+   {
+    "name": "ACCOUNT MED-01",
+    "industry": "โรงพยาบาล",
+    "lat": 13.717,
+    "lon": 100.559,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MED-02",
+    "industry": "โรงพยาบาล",
+    "lat": 13.73,
+    "lon": 100.365,
+    "conf": "medium",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MED-03",
+    "industry": "โรงพยาบาล",
+    "lat": 13.626,
+    "lon": 100.728,
+    "conf": "medium",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT MED-04",
+    "industry": "โรงพยาบาล",
+    "lat": 13.807,
+    "lon": 100.622,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MED-05",
+    "industry": "โรงพยาบาล",
+    "lat": 13.685,
+    "lon": 100.634,
+    "conf": "medium",
+    "area": "สมุทรปราการ"
+   },
+   {
+    "name": "ACCOUNT MED-06",
+    "industry": "โรงพยาบาล",
+    "lat": 13.644,
+    "lon": 100.41,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MED-07",
+    "industry": "โรงพยาบาล",
+    "lat": 13.732,
+    "lon": 100.592,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MED-08",
+    "industry": "โรงพยาบาล",
+    "lat": 13.755,
+    "lon": 100.6,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MED-09",
+    "industry": "โรงพยาบาล",
+    "lat": 13.781,
+    "lon": 100.645,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT MED-10",
+    "industry": "โรงพยาบาล",
+    "lat": 13.754,
+    "lon": 100.541,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT RTL-01",
+    "industry": "ค้าปลีกและศูนย์การค้า",
+    "lat": 14.006,
+    "lon": 100.434,
+    "conf": "medium",
+    "area": "นนทบุรี"
+   },
+   {
+    "name": "ACCOUNT RTL-02",
+    "industry": "ค้าปลีกและศูนย์การค้า",
+    "lat": 14.216,
+    "lon": 100.637,
+    "conf": "low",
+    "area": "พระนครศรีอยุธยา"
+   },
+   {
+    "name": "ACCOUNT RTL-03",
+    "industry": "ค้าปลีกและศูนย์การค้า",
+    "lat": 13.768,
+    "lon": 100.564,
+    "conf": "medium",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT RTL-04",
+    "industry": "ค้าปลีกและศูนย์การค้า",
+    "lat": 13.801,
+    "lon": 100.689,
+    "conf": "low",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT RTL-05",
+    "industry": "ค้าปลีกและศูนย์การค้า",
+    "lat": 13.707,
+    "lon": 100.548,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT RTL-06",
+    "industry": "ค้าปลีกและศูนย์การค้า",
+    "lat": 13.784,
+    "lon": 100.545,
+    "conf": "high",
+    "area": "กรุงเทพมหานคร"
+   },
+   {
+    "name": "ACCOUNT RTL-07",
+    "industry": "ค้าปลีกและศูนย์การค้า",
+    "lat": 14.22,
+    "lon": 100.658,
+    "conf": "low",
+    "area": "พระนครศรีอยุธยา"
+   },
+   {
+    "name": "ACCOUNT RTL-08",
+    "industry": "ค้าปลีกและศูนย์การค้า",
+    "lat": 13.538,
+    "lon": 100.731,
+    "conf": "medium",
+    "area": "สมุทรปราการ"
+   }
+  ],
+  "rfps": [
+   {
+    "customer": "OPERATION FALCON",
+    "title": "Retail fleet · mobile tablets",
+    "deadline": "",
+    "status": "Bid Desk · ปิดชื่อลูกค้า",
+    "rec": "ACTIVE",
+    "product": "Rugged tablet สำหรับเครือข่ายร้านค้าปลีก",
+    "lat": 13.86,
+    "lon": 100.55
+   },
+   {
+    "customer": "OPERATION ORBIT",
+    "title": "POS vision devices",
+    "deadline": "",
+    "status": "Bid Desk · ปิดชื่อลูกค้า",
+    "rec": "REVIEW",
+    "product": "อุปกรณ์ POS + บริการติดตั้งทั่วประเทศ",
+    "lat": 13.93,
+    "lon": 100.49
+   },
+   {
+    "customer": "OPERATION HARBOR",
+    "title": "Labels & ribbons supply",
+    "deadline": "",
+    "status": "Bid Desk · ปิดชื่อลูกค้า",
+    "rec": "ACTIVE",
+    "product": "สติกเกอร์ + ริบบอน สำหรับคลังสินค้า",
+    "lat": 13.4,
+    "lon": 101.03
+   },
+   {
+    "customer": "OPERATION VELOCITY",
+    "title": "E-commerce scan & print",
+    "deadline": "",
+    "status": "Bid Desk · ปิดชื่อลูกค้า",
+    "rec": "ACTIVE",
+    "product": "สแกนเนอร์ + เครื่องพิมพ์ฉลาก + วัสดุสิ้นเปลือง",
+    "lat": 13.7,
+    "lon": 100.62
+   }
+  ],
+  "estates": [
+   {
+    "name": "Amata City Chonburi Industrial Estate",
+    "province": "Chon Buri",
+    "lat": 13.44629,
+    "lon": 101.08331
+   },
+   {
+    "name": "Amata City Rayong Industrial Estate",
+    "province": "Rayong",
+    "lat": 12.96623,
+    "lon": 101.11459
+   },
+   {
+    "name": "Laem Chabang Industrial Estate",
+    "province": "Chon Buri",
+    "lat": 13.0863,
+    "lon": 100.90651
+   },
+   {
+    "name": "Map Ta Phut Industrial Estate",
+    "province": "Rayong",
+    "lat": 12.68273,
+    "lon": 101.13818
+   },
+   {
+    "name": "Eastern Seaboard Industrial Estate Rayong",
+    "province": "Rayong",
+    "lat": 13.01432,
+    "lon": 101.17674
+   },
+   {
+    "name": "WHA Chonburi Industrial Estate 1",
+    "province": "Chon Buri",
+    "lat": 13.06849,
+    "lon": 101.09034
+   },
+   {
+    "name": "Pinthong Industrial Estate 5",
+    "province": "Chon Buri",
+    "lat": 13.10267,
+    "lon": 101.15773
+   },
+   {
+    "name": "Bang Phli Industrial Estate",
+    "province": "Samut Prakan",
+    "lat": 13.58568,
+    "lon": 100.7992
+   },
+   {
+    "name": "Bangchan Industrial Estate",
+    "province": "Bangkok",
+    "lat": 13.7999,
+    "lon": 100.69844
+   },
+   {
+    "name": "Lad Krabang Industrial Estate",
+    "province": "Bangkok",
+    "lat": 13.76774,
+    "lon": 100.7877
+   },
+   {
+    "name": "Bangpoo Industrial Estate",
+    "province": "Samut Prakan",
+    "lat": 13.54584,
+    "lon": 100.6583
+   },
+   {
+    "name": "Rojana Industrial Park (Ayutthaya)",
+    "province": "Phra Nakhon Si Ayutthaya",
+    "lat": 14.32908,
+    "lon": 100.66754
+   },
+   {
+    "name": "Hi-Tech Industrial Estate",
+    "province": "Phra Nakhon Si Ayutthaya",
+    "lat": 14.24979,
+    "lon": 100.59924
+   },
+   {
+    "name": "Bang Pa-in Industrial Estate",
+    "province": "Phra Nakhon Si Ayutthaya",
+    "lat": 14.20081,
+    "lon": 100.58694
+   },
+   {
+    "name": "Wellgrow Industrial Estate",
+    "province": "Chachoengsao",
+    "lat": 13.58305,
+    "lon": 100.93734
+   },
+   {
+    "name": "Gateway City Industrial Estate",
+    "province": "Chachoengsao",
+    "lat": 13.60534,
+    "lon": 101.3435
+   },
+   {
+    "name": "Northern Region Industrial Estate (Lamphun)",
+    "province": "Lamphun",
+    "lat": 18.59133,
+    "lon": 99.05128
+   },
+   {
+    "name": "Songkhla Industrial Estate",
+    "province": "Songkhla",
+    "lat": 6.53908,
+    "lon": 100.41024
+   },
+   {
+    "name": "Sinsakhon Industrial Estate",
+    "province": "Samut Sakhon",
+    "lat": 13.55217,
+    "lon": 100.33894
+   },
+   {
+    "name": "Maharaj Nakorn Industrial Estate",
+    "province": "Samut Sakhon",
+    "lat": 13.55226,
+    "lon": 100.22818
+   },
+   {
+    "name": "Bangkadi Industrial Park",
+    "province": "Pathum Thani",
+    "lat": 13.97978,
+    "lon": 100.56172
+   },
+   {
+    "name": "Nong Khae Industrial Estate",
+    "province": "Saraburi",
+    "lat": 14.3913,
+    "lon": 100.89927
+   },
+   {
+    "name": "Kaeng Khoi Industrial Estate",
+    "province": "Saraburi",
+    "lat": 14.62499,
+    "lon": 101.00214
+   },
+   {
+    "name": "Ratchaburi Industrial Estate",
+    "province": "Ratchaburi",
+    "lat": 13.64744,
+    "lon": 99.84623
+   },
+   {
+    "name": "WHA Eastern Industrial Estate (Map Ta Phut)",
+    "province": "Rayong",
+    "lat": 12.70431,
+    "lon": 101.12114
+   },
+   {
+    "name": "Siam Eastern Industrial Park",
+    "province": "Rayong",
+    "lat": 13.00415,
+    "lon": 101.13913
+   },
+   {
+    "name": "Rayong Industrial Park",
+    "province": "Rayong",
+    "lat": 12.79741,
+    "lon": 101.1991
+   },
+   {
+    "name": "Kabinburi Industrial Zone",
+    "province": "Prachin Buri",
+    "lat": 14.06528,
+    "lon": 101.83114
+   },
+   {
+    "name": "TFD Industrial Estate",
+    "province": "Chachoengsao",
+    "lat": 13.56567,
+    "lon": 100.99164
+   },
+   {
+    "name": "Asia Industrial Estate (Suvarnabhumi)",
+    "province": "Samut Prakan",
+    "lat": 13.65247,
+    "lon": 100.90805
+   },
+   {
+    "name": "Suranaree Industrial Zone",
+    "province": "Nakhon Ratchasima",
+    "lat": 14.92491,
+    "lon": 102.17987
+   },
+   {
+    "name": "Halal Food Industrial Estate",
+    "province": "Pattani",
+    "lat": 6.77915,
+    "lon": 101.58264
+   }
+  ],
+  "programs": [
+   {
+    "k": "F&B Radar",
+    "v": "350",
+    "n": "บริษัทอาหารและเครื่องดื่มที่จัดอันดับแล้ว"
+   },
+   {
+    "k": "บัญชีบนลูกโลก",
+    "v": "56",
+    "n": "ราย 5 อุตสาหกรรม · ปิดชื่อ"
+   },
+   {
+    "k": "Bid Desk",
+    "v": "4",
+    "n": "งานประมูลที่ติดตามอยู่"
+   },
+   {
+    "k": "ทะเบียน SKU",
+    "v": "11,301",
+    "n": "รหัสสินค้า + ดาต้าชีต"
+   },
+   {
+    "k": "นิคมอุตสาหกรรม",
+    "v": "32",
+    "n": "จุดบนแผนที่"
+   }
+  ],
+  "impact": [
+   {
+    "news": "Honeywell ขายธุรกิจ PSS ให้ Brady 1.4 พันล้านดอลลาร์ ปิดดีล 3 ส.ค. 2569",
+    "deals": [
+     "Operation Falcon · retail tablets",
+     "Operation Velocity · scan & print"
+    ],
+    "so": "ผู้ติดต่อฝั่งผู้ผลิตและเงื่อนไขดีลเลอร์อาจย้ายไปอยู่ภายใต้ Brady ควรยืนยันผู้ออกราคาและการรับประกันสินค้า Honeywell PSS",
+    "level": "สูง",
+    "news_id": "honeywell-pss-brady-close"
+   },
+   {
+    "news": "Zebra ขึ้นราคา mobile computer ราว 15% จากต้นทุนหน่วยความจำ",
+    "deals": [
+     "Operation Falcon · retail tablets",
+     "ใบเสนอราคาให้บัญชีบนลูกโลก"
+    ],
+    "so": "ราคาทางเลือก Zebra อาจสูงขึ้น ใบเสนอราคาควรกำหนดอายุราคาให้สั้นลง",
+    "level": "สูง",
+    "news_id": "zebra-price-hike-memory"
+   },
+   {
+    "news": "GS1 Sunrise 2027: แบรนด์และร้านค้าเร่งเตรียมบาร์โค้ด 2D ที่จุดขาย",
+    "deals": [
+     "F&B Radar 350 บริษัท",
+     "บัญชี FNB บนลูกโลก"
+    ],
+    "so": "เหตุผลชวนคุยเรื่องสแกนเนอร์ 2D และเครื่องพิมพ์ฉลาก QR / GS1 Digital Link",
+    "level": "กลาง",
+    "news_id": "std-02"
+   },
+   {
+    "news": "TSC X40 mobile computer รวม RFID (ชิป Impinj) สแกนบาร์โค้ด และ NFC",
+    "deals": [
+     "บัญชี LOG บนลูกโลก",
+     "Operation Harbor / Velocity"
+    ],
+    "so": "ทางเลือก mobile computer รวม RFID นอกเหนือจาก Honeywell และ Zebra",
+    "level": "กลาง",
+    "news_id": "tsc-x40"
+   },
+   {
+    "news": "GS1 Thailand ประชุมใหญ่ 30 พ.ย. 2569",
+    "deals": [
+     "การหาลูกค้าใหม่ในกลุ่มผู้ผลิต"
+    ],
+    "so": "งานที่ผู้ผลิตไทยมารวมกัน เหมาะกับการสร้างความสัมพันธ์ใหม่",
+    "level": "กลาง",
+    "news_id": "sea-02"
+   }
+  ]
+ }
+}
